@@ -3,6 +3,7 @@
 title: Useful Tools
 layout: default
 permalink: /utils/tools
+toc: true
 
 ---
 

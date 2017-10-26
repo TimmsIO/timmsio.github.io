@@ -87,6 +87,17 @@ div.dropdown-menu {
   background: black;
 }
 
+ul.section-nav:before {
+  content:"TOC";
+  font-size: 1.3em;
+  color: #b5e853;
+}
+
+ul.section-nav:after {
+  content: "----------";
+  color: #b5e853;
+}
+
 a.navbar-brand:before {
   content: "./ ";
   // font-size: 1.3em;

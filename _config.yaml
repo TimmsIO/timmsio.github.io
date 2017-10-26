@@ -28,6 +28,7 @@ permalink: pretty
 
 plugins:
   - jekyll-sitemap
+  - jekyll-toc
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
