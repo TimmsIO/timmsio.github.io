@@ -7,9 +7,6 @@
         <li>
             <div>posted {{ post.date | timeago }}</div>
         </li>
-        <li>
-            <div>Read-time: {{ content | reading_time | pluralize: "minute" }}</div>
-        </li>
     </ul>
 <blockquote>
     <p class="blog-preview-exceprt">{{ post.description }}</p>
