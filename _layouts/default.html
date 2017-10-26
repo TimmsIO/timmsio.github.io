@@ -20,7 +20,14 @@
     {% include navbar.html %}
     <div class="container">
         <div id="content">
-            {{ content | toc }} {% if page.title == 'root' %}
+
+            {% if page.toc == true %}
+            <div class="section-nav">
+                    {% include toc.html html=content %}
+            </div>
+            {% endif %}
+
+            {{ content }} {% if page.title == 'root' %}
 
             <h2>Check Out My Recent Post:</h2>
 

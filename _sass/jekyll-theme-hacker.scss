@@ -107,8 +107,8 @@ a.navbar-brand {
   position: relative;
 }
 
-.link-panel { 
-  position:absolute; 
+.link-panel {
+  position:absolute;
   width:100%;
   height:100%;
   top:0;
@@ -116,22 +116,22 @@ a.navbar-brand {
 
   z-index: 1;
 
-  /* fixes overlap error in IE7/8, 
+  /* fixes overlap error in IE7/8,
      make sure you have an empty gif */
   background-image: url('/assets/images/empty.gif');
-} 
+}
 
 div.dropdown-menu {
   background: black;
 }
 
-ul.section-nav:before {
+div.section-nav:before {
   content:"TOC";
   font-size: 1.3em;
   color: #b5e853;
 }
 
-ul.section-nav:after {
+div.section-nav:after {
   content: "----------";
   color: #b5e853;
 }
