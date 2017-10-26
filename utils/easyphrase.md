@@ -32,9 +32,8 @@ Or github:
         </div>
         <button id="easyphrase-copy-button" type="button" class="list-group-item list-group-item-action">Copy Last Password to Clipboard</button>
     </div>
-    </br>
 </div>
-<div></div>
+<div style="height:1em;"></div>
 
 ## What is it?
 
