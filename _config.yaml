@@ -28,12 +28,7 @@ permalink: pretty
 
 plugins:
   - jekyll-sitemap
-  - jekyll-toc
   - jekyll-github-metadata
-  - jekyll-twitter-plugin
-  - jekyll-timeago
-  - liquid_pluralize
-  - liquid_reading_time
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
