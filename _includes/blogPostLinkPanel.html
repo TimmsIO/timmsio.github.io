@@ -1,0 +1,17 @@
+<div class="link-panel-container">
+    <a href="{{ post.url }}" aria-label="{{ post.title }}">
+        <span class="link-panel"></span>
+    </a>
+    <h3 class="blog-preview-title post-brand">{{ post.title }}</h3>
+    <ul>
+        <li>
+            <div>posted {{ post.date | timeago }}</div>
+        </li>
+        <li>
+            <div>Read-time: {{ content | reading_time | pluralize: "minute" }}</div>
+        </li>
+    </ul>
+<blockquote>
+    <p class="blog-preview-exceprt">{{ post.description }}</p>
+</blockquote>
+</div>
