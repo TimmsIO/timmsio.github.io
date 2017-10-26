@@ -10,17 +10,17 @@ permalink: /about/
 
 I am an infosec nerd, and a former software engineer who turned to the dark side.
 
-I am currently an operational security officer at an exam delivery company that houses high security PII throughout the world.
+I am currently an operational security officer at an exam delivery company which houses high security PII throughout the world.
 
 ## Infosec Experience
 
 - corporate incident response
 - creating and leading training programmes
-    - basic corporate security awareness programme
-    - developer specific application security programme
+  - basic corporate security awareness programme
+  - developer specific application security programme
 - ISO 270002/270001 compliance
-    - writing policy
-    - writing procedure
+  - writing policy
+  - writing procedure
 - SIEM setup and ongoing management
 - threat surface analysis using OSINT
 - application security auditing

@@ -3,6 +3,8 @@
 
 <head>
     <meta charset="utf-8" />
+    <meta http-equiv="refresh" content="0;url='{{page.newURL}}'">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>
         {{ page.title }} - {{ site.title }}
@@ -20,35 +22,11 @@
     {% include navbar.html %}
     <div class="container">
         <div id="content">
-            {{ content | toc }} {% if page.title == 'root' %}
 
-            <h2>Check Out My Recent Post:</h2>
-
-            {% for post in site.posts limit:1 %}
-
-            <h3 class="blog-preview-title">
-                <a href="{{ post.url }}">{{ post.title }}</a>
-            </h3>
-            <p class="blog-preview-exceprt">{{ post.description }}</p>
-
-            {% endfor %} {% endif %} {% if page.title == 'Blog' %}
-            <h1>Blog Index</h1>
-            <ul>
-                {% for post in site.posts %}
-                <li>
-                    <h3 class="blog-preview-title">
-                        <a href="{{ post.url }}">{{ post.title }}</a>
-                    </h3>
-                    
-                    <p class="blog-preview-exceprt">{{ post.description }}</p>
-                    <hr>
-                </li>
-                {% endfor %}
-            </ul>
-            {% endif %}
+            <link rel="canonical" href="{{ page.newURL }}" />
+            
         </div>
     </div>
-
     <footer class="footer navbar-fixed-bottom">
         <div class="container h-100">
             <div class="row h-100">
@@ -60,7 +38,6 @@
             </div>
         </div>
     </footer>
-
     {% include scripts.html %}
 
 </body>

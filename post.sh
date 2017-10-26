@@ -113,6 +113,7 @@ read -p "tags: " tags
 if [ "$tags" ]; then
   echo "tags: $tags" >> $filename
 fi
+echo "description: fillThisIn" >> $filename
 echo "---" >> $filename
 echo >> $filename
 
