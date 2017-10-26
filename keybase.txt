@@ -1,0 +1,88 @@
+==================================================================
+https://keybase.io/tiosect
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://timms.io
+  * I am tiosect (https://keybase.io/tiosect) on keybase.
+  * I have a public key with fingerprint 2D9E 64BB BB17 5F21 70B9  DD27 CAE7 077E 73D3 2925
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120985555639a65b05bf0ba00bffcc54648343b3087ddccac0d5b64473547fd04630a",
+      "fingerprint": "2d9e64bbbb175f2170b9dd27cae7077e73d32925",
+      "host": "keybase.io",
+      "key_id": "cae7077e73d32925",
+      "kid": "0101c486e9ab4444ea3795194386226ac5298c5e7bf8b674c2550fb4fa04d0d86b3a0a",
+      "uid": "23e323a2042b5d5dfbc794aae5964119",
+      "username": "tiosect"
+    },
+    "merkle_root": {
+      "ctime": 1509006757,
+      "hash_meta": "328355bbcf2f33ea230a07006302ad0e46d6a257bd4a48e6daa45d7ebb53ee9e",
+      "seqno": 1631773
+    },
+    "revoke": {
+      "sig_ids": [
+        "a91fa931de91b2d0a6db88383ddaa9b33d8dd090522a2b36ec3aece2cfa7629e0f"
+      ]
+    },
+    "service": {
+      "hostname": "timms.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1509006771,
+  "expire_in": 157680000,
+  "prev": "95fb5a2aeadc53c7cbb54ca010f2b7dbc2c6d624600dff1804ff23965a6f3d69",
+  "seqno": 17,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.76
+Comment: https://keybase.io/crypto
+
+yMP/AnicbVNpbFVFFG4LtOkLUBo0bBrgsgjyoPNm7ty5t2EVI2WxrS0o0MJz5s7c
+vkvb99p3bwu1tASQGK2gZStLEFkCLUEUy2ZEQcoWEEWRKLHsQm1AsBKLLKXOq2KM
+8fyZzMl3vvOd78wc7tQuyhN9oiGu3DkzeED0yUOFRVHTmtbVliosxEuU5FIlV7Qd
+Io8Lx/Xn2lxJVoAPAkPHMjRkUA0zgJkFGAWAWZZpYlVTdaQihoBOODdNagKOmaaq
+BGGVWByoGgJU8SqWHcwR4YKwHXQlLeSG0FQmw0ewBX0EMINzSEwqCCBEEMQRNCCW
+hYGQE6mQ4hh1xDA7JHPy4m+T9z/4x7qBz1R1TRiUqTIERcTAPkNFugahRk0MDd3E
+gjBLZxpRTYgxsJhqUaBywHWNIdqmu6iNDiKBIKIQqJBhjrnFTGKolApsaKrPZ0SA
+jggHab6QaNcOOcJ0lTKvki/CuXnCHw6F3Ii3pmtHED4MDAA0gomcjzoBf75wqSxE
+UEcYM2Za0EJIUCi9A0QiEYCUA6FqXKMQE8ZVqupC45SqmBPBGEZCGELKcERhMCQ7
+aMhHCJIKwqI4lCsizR07R7rmKMlZCjV8FjWQjwvDxyAHVONM15GOuKQ0GEJc51xq
+xBBSyJAmTESFKaBpUaJBQwBLmVEWaRYuts028sia/hk/P9/5a1EF4ZAbMkN5Mhtw
+3QInOeKJW1IQgc0WzP83gZ/ZQS4fiKwoFmHHDgXlBBL5H7uIz6uIOQV2WPjtCAIT
+TQcyIn1EsaQ0sMUwhVRQbmJkElMao5pUPgYLMsKZCU3pIFQ1ALhl+XSgWhZEhoap
+ZiGuGf/yT27GpTmSU7oWpG5RWChlh77Ibh8V7YmK7RAT+TlRnvguj/9Tck1Ca9oH
+Z+vaP9Fc2/TGkJc2nvxyzLl9J+IPbwn2yze+bvfC4YFLF3a6njY/0+v56sfbgY4l
+I+Z3u7475rcuVzN2kobmuUn106prjv5Q1G7v5onv3D6/LHOsmde8eHr2aeP3zrHP
+3rq/dV1j2YrzBZVNtQ9jMzqcbnjRO2XOzJu9c+s7NY13Tjk/rV+z9fuKz5M+bsw4
+fpf8vDe1Yt7ReZ8siNtg39h7tXvPqvXn+aCho3fEfZdwRm0cv71z/8mhIfdvXvD+
+WrKk9o4Wv6ziqQflMLy63+U+n2a+NaJpburIHqP9R8dMXftH7djjk1q+dQ+1rlo5
+/uKdcerKfSnXWoKeDR9Vzhj4KD2/+5rdWFk4w7iwjZf3TKw/kH32bt/CwKqkmcsb
+Gqp2wbTsK3Xdq1JT4bCs6sLYxGtTMw9mbRnu2p/llGWt6ZjyTNfKutc23d58pOqh
+J7VowL3+dRMndM0avAgk4AHd9j1Yfi67Jfz+nuLA03Fmj0lRk2cda+1de/GEf8q9
+9DGz41N6bRx36uKN6fNrvllEtR1RV0idsn+dXuNUB2K8mz2rdy1dkND3yOrXS9+7
+BOY1bxt5a//ZFTcT3yx/Mqbl0Z70S62zPGsvLx7eK/bCgVfdnXVJJ4OjyheVbt+d
+viRjemWPvIrY6weff2XKkl6t95+75ven2iveHtWcNnfQng9Tynb26WP/Ygzu2vju
+hMT6/S+nDz22Kbo67U++XAJd
+=WTfY
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/tiosect
+
+==================================================================
