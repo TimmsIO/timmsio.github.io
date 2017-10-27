@@ -4,14 +4,14 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="refresh" content="0;url='{{page.newURL}}'">
-    
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>
         {{ page.title }} - {{ site.title }}
     </title>
 
     {% include styles.html %} {% include analytics.html %}
-
+    {% seo %}
 </head>
 
 <body>
@@ -24,7 +24,7 @@
         <div id="content">
 
             <link rel="canonical" href="{{ page.newURL }}" />
-            
+
         </div>
     </div>
     <footer class="footer navbar-fixed-bottom">
