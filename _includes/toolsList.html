@@ -1,0 +1,22 @@
+{% assign tools = site.data.utils.utilities | sort:"title" %}
+{% assign tags = site.data.utils.sortableTags | sort %}
+
+
+<datalist>
+  {% for tag in tags %}
+  <option value="{{ tag }}"></option>
+  {% endfor %}
+</datalist>
+
+{% for tool in tools %}
+<div class="link-panel-container" data-tags="{{ tool.tags | join: " " }}">
+  <a href="{{ tool.href }}" target="_blank" aria-label="{{ tool.aria }}">
+    <span class="link-panel"></span>
+  </a>
+  <h3 class="tool-brand">{{ tool.title }}</h3>
+  <blockquote>
+    <p>{{ tool.description }}</p>
+  </blockquote>
+</div>
+<hr>
+{% endfor %}
