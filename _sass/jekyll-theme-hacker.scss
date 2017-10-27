@@ -118,8 +118,18 @@ a.navbar-brand {
   -webkit-font-smoothing: antialiased;
 }
 
+.blog-preview-title {
+  margin-bottom: 0px;
+}
+
 .post-brand:before {
   content: "$ cat \"";
+  // font-size: 1.3em;
+  color: #b5e853;
+}
+
+.posted-statement:before, .posted-statement:after  {
+  content: "---";
   // font-size: 1.3em;
   color: #b5e853;
 }
