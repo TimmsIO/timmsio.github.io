@@ -56,6 +56,16 @@ li.nav-item {
   margin-right: 1em;
 }
 
+li.nav-item.active {
+  color: #b5e853 !important;
+  text-decoration: underline !important;
+}
+
+a.dropdown-item.active {
+  color: #b5e853 !important;
+  text-decoration: underline !important;
+}
+
 /* Header, <header>
    header   - container
    h1       - project name
@@ -98,7 +108,17 @@ a.navbar-brand {
 }
 
 .post-brand:before {
-  content: "$ cat ";
+  content: "$ cat \"";
+  // font-size: 1.3em;
+  color: #b5e853;
+}
+
+.dropdown-toggle:focus + .dropdown-menu {
+  display: block;
+}
+
+.post-brand:after {
+  content: "\"";
   // font-size: 1.3em;
   color: #b5e853;
 }
