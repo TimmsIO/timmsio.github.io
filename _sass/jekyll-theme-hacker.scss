@@ -120,12 +120,16 @@ a.navbar-brand {
 
 .blog-preview-title {
   margin-bottom: 0px;
+  font-size: 1.2em;
 }
 
 .post-brand:before {
   content: "$ cat \"";
-  // font-size: 1.3em;
   color: #b5e853;
+}
+
+.posted-statement {
+  font-size: 0.9em
 }
 
 .posted-statement:before, .posted-statement:after  {
