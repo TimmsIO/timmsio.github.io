@@ -1,35 +1,22 @@
 ---
 title: root
 layout: default
+contactShow: true
 ---
-
-# root
-
-Check out the things I have made at Github or NPM:
-
-[https://github.com/TimmsIO][gh]
-
-[https://www.npmjs.com/~timmsio][npm]
-
-Or contact me via email: [PGP Public Key][pgp]
-
-The navbar has links to the interesting stuff on this site.
-
-Since you're here though, you should take some steps to increase your security online a little bit!
 
 ## Basic Security Quick Wins
 
-Here are some quick wins:
+I think this is an important topic.
+
+These are some quick wins for the average user's threat model.
 
 - disable JS by default in your browser (whitelist the sites you use a lot)
-- use a password manager, but make sure you have a strong master password. Anything more than 15 characters should be good. You could even use this: [easyphase passphrase generator](/utils/easyphrase/)
-- install an adblocker in your browser
+- use a password manager, but make sure you have a strong master password. Anything more than 15 characters should be good. You could even use this: [easyphrase passphrase generator](/utils/easyphrase/)
 - enable multi-factor authentication on your accounts
 - install [EFF's Privacy Badger][badger] to block tracking
 - install [EFF's HTTPS Everywhere][ever] to force encryption
 - use a vpn on networks you don't own
-
-Even if you do one of these things, you will be a little more secure than when you started.
+- install an adblocker in your browser
 
 [badger]: https://www.eff.org/privacybadger "EFF Privacy Badger tracker blocker"
 [ever]: https://www.eff.org/https-everywhere "HTTPS Everywhere browser plugin"
