@@ -52,7 +52,7 @@ fi
 # Y/n ask function
 function ask {
     while true; do
- 
+
         if [ "${2:-}" = "true" ]; then
             prompt="Y/n"
             default=Y
@@ -63,21 +63,21 @@ function ask {
             prompt="y/n"
             default=
         fi
- 
+
         # Ask the question
         read -p "$1 [$prompt] " REPLY
- 
+
         # Default?
         if [ -z "$REPLY" ]; then
             REPLY=$default
         fi
- 
+
         # Check if the reply is valid
         case "$REPLY" in
             Y*|y*) return 0 ;;
             N*|n*) return 1 ;;
         esac
- 
+
     done
 }
 
@@ -109,12 +109,17 @@ echo "title: \"$title\"" >> $filename
 # fi
 echo "date: `date +%F\ %H:%M:%S\ %z`" >> $filename
 echo "categories: blog" >> $filename
+echo "author: Morgan Timms" >> $filename
+echo "license: CC-BY-4.0" >> $filename
 read -p "tags: " tags
 if [ "$tags" ]; then
   echo "tags: $tags" >> $filename
 fi
-echo "description: fillThisIn" >> $filename
+echo "excerpt_separator: <!--more-->" >> $filename
 echo "---" >> $filename
+echo >> $filename
+echo >> $filename
+echo "<!--more-->" >> $filename
 echo >> $filename
 
 # open in chosen editor
