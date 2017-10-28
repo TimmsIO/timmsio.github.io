@@ -25,7 +25,12 @@ lang: en_AU
 # Build settings
 markdown: kramdown
 permalink: pretty
-
+exclude: [
+  _excludes
+]
+include: [
+  _pages
+]
 plugins:
   - jekyll-sitemap
   - jekyll-github-metadata

@@ -1,0 +1,4 @@
+[submodule "_excludes/multi.js"]
+	path = _excludes/multi.js
+	url = https://github.com/Fabianlindfors/multi.js.git
+	branch = master

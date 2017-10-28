@@ -1,12 +1,14 @@
 {% assign tools = site.data.utils.utilities | sort:"title" %}
 {% assign tags = site.data.utils.sortableTags | sort %}
 
+<div>
+  <select multiple="multiple" id="tags-select" style="width: 100%">
+    {% for tag in tags %}
+    <option>{{ tag }}</option>
+    {% endfor %}
+  </select>
+</div>
 
-<datalist>
-  {% for tag in tags %}
-  <option value="{{ tag }}"></option>
-  {% endfor %}
-</datalist>
 
 {% for tool in tools %}
 {% if tool.title != '' %}
