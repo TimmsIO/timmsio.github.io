@@ -294,6 +294,12 @@ ol li:before {
   font-weight: bold;
 }
 
+.list-group-item {
+  background:  rgba(255, 255, 255, 0.15);
+  border-color: #b5e853;
+  color: #b5e853;
+}
+
 blockquote, figcaption {
   color: #aaa;
   padding-left: 10px;
