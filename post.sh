@@ -111,6 +111,10 @@ echo "date: `date +%F\ %H:%M:%S\ %z`" >> $filename
 echo "categories: blog" >> $filename
 echo "author: Morgan Timms" >> $filename
 echo "license: CC-BY-4.0" >> $filename
+echo "thumbnail: " >> $filename
+echo "thumbnailAttr: " >> $filename
+echo "thumbnailAttrUrl: " >> $filename
+echo "description: " >> $filename
 read -p "tags: " tags
 if [ "$tags" ]; then
   echo "tags: $tags" >> $filename

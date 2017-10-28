@@ -10,13 +10,13 @@ I think this is an important topic.
 
 These are some quick wins for the average user's threat model.
 
-- disable JS by default in your browser (whitelist the sites you use a lot)
 - use a password manager, but make sure you have a strong master password. Anything more than 15 characters should be good. You could even use this: [easyphrase passphrase generator](/utils/easyphrase/)
 - enable multi-factor authentication on your accounts
 - install [EFF's Privacy Badger][badger] to block tracking
 - install [EFF's HTTPS Everywhere][ever] to force encryption
-- use a vpn on networks you don't own
 - install an adblocker in your browser
+- use a vpn on networks you don't own
+- disable JS by default in your browser (whitelist the sites you use a lot)
 
 [badger]: https://www.eff.org/privacybadger "EFF Privacy Badger tracker blocker"
 [ever]: https://www.eff.org/https-everywhere "HTTPS Everywhere browser plugin"

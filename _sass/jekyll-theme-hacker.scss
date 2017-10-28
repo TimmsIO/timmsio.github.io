@@ -276,10 +276,42 @@ ul li {
   list-style-image:url('../images/bullet.png');
 }
 
-blockquote {
+ol {
+  list-style: none;
+  counter-reset: li;
+}
+
+ol li {
+  counter-increment: li;
+}
+
+ol li:before {
+  content: counter(li) " -> ";
+  display: inline-block;
+  width: 3em;
+  margin-left: -2em;
+  color: #b5e853;
+  font-weight: bold;
+}
+
+blockquote, figcaption {
   color: #aaa;
   padding-left: 10px;
   border-left: 1px dotted #666;
+}
+
+figcaption {
+  font-size: 0.8em;
+
+  div.thumb-attr {
+    font-size: 0.6em;
+    text-align: right;
+
+    a {
+      color: 63c0f5;
+      text-shadow: initial;
+    }
+  }
 }
 
 pre {

@@ -5,7 +5,14 @@
     <div class="blog-preview-title post-brand">{{ post.title }}</div>
             <div class="posted-statement">posted <span class="postDate">{{ post.date }}</span></div>
 <blockquote>
-    <p class="blog-preview-exceprt">{{ post.excerpt }}</p>
+    <p class="blog-preview-excerpt">
+        {{ post.excerpt }}
+        {% if post.excerpt != post.content %}
+        <em>
+            ...continues...
+        </em>
+        {% endif %}
+    </p>
 </blockquote>
 </div>
-<hr> 
+<hr>

@@ -10,6 +10,9 @@
 
     {% include styles.html %} {% include analytics.html %}
     {% seo %}
+    {% if page.thumbnail %}
+    <meta property="og:image" content="{{ page.thumbnail }}">
+    {% endif %}
 </head>
 
 <body>

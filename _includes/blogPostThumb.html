@@ -1,0 +1,18 @@
+<figure>
+  <img src="{{ page.thumbnail }}" alt="{{ page.thumbnailAlt }}">
+  <figcaption>
+  {{ page.description }}
+  {% if page.thumbnailAttr %}
+  <div class="thumb-attr">
+    image credit:
+    {% if page.thumbnailAttrUrl %}
+      <a href="{{ page.thumbnailAttrUrl }}">
+        {{ page.thumbnailAttr }}
+      </a>
+    {% else %}
+    {{ page.thumbnailAttr }}
+    {% endif %}
+  </div>
+  {% endif %}
+  </figcaption>
+</figure>
