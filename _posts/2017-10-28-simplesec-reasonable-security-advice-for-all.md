@@ -64,7 +64,7 @@ I've changed this list up a few times, but as it currently stands, here is what 
 
 ### Use a Password Manager
 
-This is an easy win. Password managers actually decrease security fatigue in my experience. On top of that, they are extremely easy to adopt because they just pick up your passwords when you enter them. After a month of using one, it will probably have all your passwords.
+This is an easy win. Password managers actually decrease security fatigue in my experience. On top of that, they are extremely easy to adopt because they just pick up your passwords as you use them. After a month of use, it will probably have all your passwords.
 
 ### Use Multi-Factor Auth
 
