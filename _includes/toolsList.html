@@ -9,14 +9,24 @@
 </datalist>
 
 {% for tool in tools %}
+{% if tool.title != '' %}
 <div class="link-panel-container" data-tags="{{ tool.tags | join: " " }}">
   <a href="{{ tool.href }}" target="_blank" aria-label="{{ tool.aria }}">
     <span class="link-panel"></span>
   </a>
   <h3 class="tool-brand">{{ tool.title }}</h3>
+
+  {% if tool.tags.size >=1 %}
+  <div class="tags-list">
+    {% for tag in tool.tags %}
+      <span class="tool-tag">{{ tag }}</span>
+    {% endfor %}
+  </div>
+  {% endif %}
   <blockquote>
     <p>{{ tool.description }}</p>
   </blockquote>
 </div>
 <hr>
+{% endif %}
 {% endfor %}

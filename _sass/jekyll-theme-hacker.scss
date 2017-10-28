@@ -166,6 +166,18 @@ a.navbar-brand {
   color: #b5e853;
 }
 
+div.tags-list {
+  margin-top: -20px;
+
+  span.tool-tag {
+    font-size: 0.6em;
+    border: solid;
+    border-color: #b5e853;
+    border-radius: 2px;
+    padding: 2px;
+  }
+}
+
 .link-panel-container {
   position: relative;
 }

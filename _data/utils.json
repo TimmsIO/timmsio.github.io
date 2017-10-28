@@ -6,7 +6,8 @@
     "recon",
     "forensics",
     "malware",
-    "logs"
+    "logs",
+    "*nix"
   ],
   "utilities": [
     {
@@ -76,6 +77,107 @@
       "href": "https://tmuxcheatsheet.com/",
       "aria": "Tmux cheatsheet website",
       "description": "I use Tmux at home and at work, but I don't always remember the hotkeys. This website helps with that."
+    },
+    {
+      "title": "Hybrid Analysis Malware Sandbox",
+      "tags": [
+        "application",
+        "forensics",
+        "malware",
+        "website"
+      ],
+      "href": "https://www.hybrid-analysis.com/",
+      "aria": "Hybrid Analysis Malware Sandbox",
+      "description": "This is a decent malware analysis sandbox that provides high quality reports including links to virustotal. It is similar to Malwr.com, but it can handle larger files. Like all virus analysis sandboxes, don't upload documents with sensitive information."
+    },
+    {
+      "title": "Regex101",
+      "tags": [
+        "application","reference","website"
+      ],
+      "href": "https://regex101.com/",
+      "aria": "Regex 101 regex builder tool",
+      "description": "Regular expressions can be very frustrating to write, and having a good IDE for it takes a lot of the stress out of it. Regex 101 is a great tool for building and testing regex. I use it a lot when I need to do custom field extractions from logs in Splunk."
+    },
+    {
+      "title": "URLquery.net",
+      "tags": [ "malware","recon","website"
+      ],
+      "href": "https://urlquery.net/",
+      "aria": "url-query web-based malware analysis service",
+      "description": "URLquery.net is a very useful tool for doing quick analysis of what heppens when you visit a link. It even includes output of Suricata."
+    },
+    {
+      "title": "Daring Fireball Markdown Syntax Guide",
+      "tags": [ "website","reference"
+      ],
+      "href": "https://daringfireball.net/projects/markdown/syntax",
+      "aria": "Daring Fireball Markdown Syntax Guide",
+      "description": "I use markdown for almost everything. This website is generated from markdown, I generate presentations for work from markdown files. I sometimes need a refresher on the lesser used features though, and this is a great guide for that."
+    },
+    {
+      "title": "searchsploit",
+      "tags": [ "*nix", "forensics", "recon","reference","desktop"
+      ],
+      "href": "https://www.exploit-db.com/searchsploit/#install",
+      "aria": "Searchsploit manual installatio instructions",
+      "description": "Searchsploit is the easiest way to search the exploit database."
+    },
+    {
+      "title": "",
+      "tags": [
+      ],
+      "href": "",
+      "aria": "",
+      "description": ""
+    },
+    {
+      "title": "",
+      "tags": [
+      ],
+      "href": "",
+      "aria": "",
+      "description": ""
+    },
+    {
+      "title": "",
+      "tags": [
+      ],
+      "href": "",
+      "aria": "",
+      "description": ""
+    },
+    {
+      "title": "",
+      "tags": [
+      ],
+      "href": "",
+      "aria": "",
+      "description": ""
+    },
+    {
+      "title": "",
+      "tags": [
+      ],
+      "href": "",
+      "aria": "",
+      "description": ""
+    },
+    {
+      "title": "",
+      "tags": [
+      ],
+      "href": "",
+      "aria": "",
+      "description": ""
+    },
+    {
+      "title": "",
+      "tags": [
+      ],
+      "href": "",
+      "aria": "",
+      "description": ""
     }
   ]
 }
