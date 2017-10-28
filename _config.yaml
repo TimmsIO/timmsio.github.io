@@ -1,7 +1,6 @@
 title: TimmsIO
 
-description: >- # this means to ignore newlines until "baseurl:"
-  Yet another information security blog.
+description: Timms.IO -- Yet another information security blog.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://timms.io" # the base hostname & protocol for your site, e.g. http://example.com
 author: Morgan Timms
