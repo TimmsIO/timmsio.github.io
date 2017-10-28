@@ -1,8 +1,65 @@
+// stuff for toggling visibility
+#item-1 {
+  display: none;
+}
+.hide {
+	// width:50%;
+	// border:1px solid #000;
+	// background:red;
+	// max-height:99em;
+	// opacity:1;
+	// height:auto;
+	// overflow:hidden;
+	// transition:opacity 1.5s linear, max-height 1.5s linear;
+}
+
+#item-1:checked + div {
+  display: none;
+	opacity:0;
+	max-height:0;
+	border:none;
+}
+
+.tools-filter-button {
+    border-color: #b5e853;
+    border-style: dashed;
+    border-width: 1px;
+    text-align: center;
+    width:100%
+}
+.tools-filter-button:hover {
+    border-color: #b5e853;
+    border-style: dashed;
+    border-width: 1px;
+    background-color: #b5e853;
+    color: black;
+}
+
+
+// multiselect styles
+div.non-selected-wrapper {
+    a.item {
+        color: #b5e853;
+        text-shadow: initial;
+    }
+}
+
+div.selected-wrapper {
+    a.item.selected {
+        color: #b5e853;
+        text-shadow: initial;
+    }
+}
+
 .multi-wrapper {
     border: 1px solid #b5e853;
     border-radius: 3px;
     width: 100%;
     background:  rgba(255, 255, 255, 0.15);
+    input.search-input {
+        background:  rgba(255, 255, 255, 0.15);
+        color: #b5e853;
+    }
 }
 
 .multi-wrapper .non-selected-wrapper,
