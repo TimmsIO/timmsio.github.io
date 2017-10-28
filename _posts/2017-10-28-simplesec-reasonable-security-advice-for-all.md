@@ -60,7 +60,7 @@ These criteria ensure that any advice will introduce minimal security fatigue, n
 
 I am careful to make sure that I know my audience before I start rattling off advice at an unsuspecting acquaintance. Some people are more resistant to security fatigue than others, and balancing the benefits with the effort isn't always easy.
 
-I have changed this list up a few times, but as it currently stands, here is what I tell people in order of the most important to the least:
+I've changed this list up a few times, but as it currently stands, here is what I tell people in order of the most important to the least:
 
 ### Use a Password Manager
 
@@ -70,7 +70,7 @@ This is an easy win. Password managers actually decrease security fatigue in my 
 
 Unfortunately, multi-factor authentication causes _a lot_ of security fatigue. The benefit of preventing an attacker who has your un-hashed password from gaining access is clear though.
 
-Although I have heard plenty of people decry using a mobile number for 2FA, for most people it is more than secure enough and doesn't cause as much fatigue as an authenticator app or a Yubikey. This is very much a case of aligning the advice with the threat model of the user in question.
+Although I've heard plenty of people decry using a mobile number for 2FA, for most people it is more than secure enough and doesn't cause as much fatigue as an authenticator app or a Yubikey. This is very much a case of aligning the advice with the threat model of the user in question.
 
 ### Install Some Blocking Extensions
 
