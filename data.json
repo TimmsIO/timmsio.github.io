@@ -1,0 +1,28 @@
+---
+---
+[
+  {% for page in site.pages %}
+  {% if page.title %}
+  {
+    {% capture mytitle%}{{page.title}}{%endcapture%}
+    "title"    : "{{ mytitle | escape }}",
+    "category" : "{{ page.categories | join: ' ' }}",
+    "content"	 : "{{page.content | markdownify | strip_html | strip_newlines | remove:  "	" | escape | remove: "\"}}",
+    "url"      : "{{ site.baseurl }}{{ page.url }}",
+    "date"     : "{{ page.date }}"
+  },
+  {% endif %}
+{% endfor %}
+{% for post in site.posts %}
+{% if post.title %}
+  {
+    {% capture mytitle%}{{post.title}}{%endcapture%}
+    "title"    : "{{ mytitle | escape }}",
+    "category" : "{{ post.categories | join: ' ' }}",
+    "content"	 : "{{ post.content | markdownify | strip_html | strip_newlines | remove:  "	" | escape | remove: "\"}}",
+    "url"      : "{{ site.baseurl }}{{ post.url }}",
+    "date"     : "{{ post.date }}"
+  }{% unless forloop.last %},{% endunless %}
+{% endif %}
+{% endfor %}
+]
