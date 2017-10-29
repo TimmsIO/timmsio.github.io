@@ -68,7 +68,9 @@ function filterTools() {
   }
 }
 
-var select = document.getElementById('tags-select');
-multi(select, {
+$(document).ready(function () {
+  var select = document.getElementById('tags-select');
+  multi(select, {
     search_placeholder: 'Search tags...',
+  })
 });

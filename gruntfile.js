@@ -1,23 +1,66 @@
-module.exports = function(grunt) {
+module.exports = function (grunt) {
 
-    // Project configuration.
-    grunt.initConfig({
-      pkg: grunt.file.readJSON('package.json'),
-      uglify: {
-        options: {
-          banner: '/*! <%= pkg.name %> <%= grunt.template.today("yyyy-mm-dd") %> */\n'
-        },
-        build: {
-          src: 'src/<%= pkg.name %>.js',
-          dest: 'build/<%= pkg.name %>.min.js'
-        }
-      }
-    });
+  // files configuration
+  var siteName = "Morgan Timms -- Timms.IO"
+  var concatDepot = 'src/_concatted/'
 
-    // Load the plugin that provides the "uglify" task.
-    grunt.loadNpmTasks('grunt-contrib-uglify');
-
-    // Default task(s).
-    grunt.registerTask('default', ['uglify']);
-
+  // source configurations
+  var globaljs = {
+    compiledName: 'siteScripts',
+    contributingFiles: [
+      'src/js/global/*.js',
+      '_excludes/multi.js/src/multi.js'
+    ],
+    destAssetsFolder: 'assets/js/site/'
   };
+  var toolsFilter = {
+    compiledName: 'filter',
+    contributingFiles: [
+      'src/js/app/tools/*.js'
+    ],
+    destAssetsFolder: 'assets/js/tools/'
+  }
+
+  // Project configuration.
+  grunt.initConfig({
+    pkg: grunt.file.readJSON('package.json'),
+    uglify: {
+      options: {
+        banner: '/*! ' + siteName + ' <%= grunt.template.today("yyyy-mm-dd") %> */\n'
+      },
+      sitejs: {
+        src: concatDepot + globaljs.compiledName + '.js',
+        dest: globaljs.destAssetsFolder + globaljs.compiledName + '.min.js'
+      },
+      tooljs: {
+        src: concatDepot + toolsFilter.compiledName + '.js',
+        dest: toolsFilter.destAssetsFolder + toolsFilter.compiledName + '.min.js'
+      }
+    },
+    concat: {
+      sitejs: {
+        src: globaljs.contributingFiles,
+        dest: concatDepot + globaljs.compiledName + '.js',
+      },
+      tooljs: {
+        src: toolsFilter.contributingFiles,
+        dest: concatDepot + toolsFilter.compiledName + '.js',
+      },
+    }
+  });
+
+  // Load the plugins
+  grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-contrib-concat');
+
+  // Default task(s).
+  grunt.registerTask('default', [
+    // concat tasks
+    'concat:sitejs',
+    'concat:tooljs',
+    // minify tasks
+    'uglify:sitejs',
+    'uglify:tooljs'
+  ]);
+
+};
