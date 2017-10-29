@@ -36,6 +36,13 @@ exclude:
   - _excludes
   - src
   - node_modules
+  - post.sh
+  - serve.sh
+  - README.md
+  - moveDependenciesToDist.sh
+  - package.json
+  - LICENSE
+  - gruntfile.js
 include:
   - _pages
 plugins:
