@@ -1,16 +1,30 @@
-{% assign tools = site.data.utils.utilities | sort:"title" %}
-{% assign tags = site.data.utils.sortableTags | sort %}
+{% assign tools = site.data.utils.utilities | sort:"title" %} {% assign tags = site.data.utils.sortableTags | sort %}
 
+<noscript>
+  <div class="tools-filter-button">
+    enable JS to filter by tags
+  </div>
+</noscript>
 
-<datalist>
-  {% for tag in tags %}
-  <option value="{{ tag }}"></option>
-  {% endfor %}
-</datalist>
+<div class="jsonly" style="display:none;">
+  <label class="tools-filter-button" for="item-1">
+    <span>
+      click to filter by tags
+    </span>
+  </label>
+  <input type="checkbox" name="one" id="item-1" onchange="filterCheckHandler(this);" checked>
+  <div class="hide">
 
-{% for tool in tools %}
-{% if tool.title != '' %}
-<div class="link-panel-container" data-tags="{{ tool.tags | join: " " }}">
+    <select multiple="multiple" id="tags-select" onchange="filterTools()">
+      {% for tag in tags %}
+      <option value="{{ tag }}">{{ tag }}</option>
+      {% endfor %}
+    </select>
+  </div>
+</div>
+
+<hr> {% for tool in tools %} {% if tool.title != '' %}
+<div class="link-panel-container" data-tags="[{{ tool.tags | join: " , " }}]">
   <a href="{{ tool.href }}" target="_blank" aria-label="{{ tool.aria }}">
     <span class="link-panel"></span>
   </a>
@@ -19,14 +33,13 @@
   {% if tool.tags.size >=1 %}
   <div class="tags-list">
     {% for tag in tool.tags %}
-      <span class="tool-tag">{{ tag }}</span>
+    <span class="tool-tag">{{ tag }}</span>
     {% endfor %}
   </div>
   {% endif %}
   <blockquote>
     <p>{{ tool.description }}</p>
   </blockquote>
+  <hr>
 </div>
-<hr>
-{% endif %}
-{% endfor %}
+{% endif %} {% endfor %}

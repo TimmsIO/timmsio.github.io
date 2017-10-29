@@ -1,4 +1,5 @@
 @import "rouge-base16-dark";
+@import "multiSelect";
 
 body {
   margin: 0;
@@ -172,6 +173,7 @@ div.tags-list {
   span.tool-tag {
     font-size: 0.6em;
     border: solid;
+    border-width: 1px;
     border-color: #b5e853;
     border-radius: 2px;
     padding: 2px;

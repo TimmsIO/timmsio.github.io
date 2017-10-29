@@ -25,20 +25,28 @@ lang: en_AU
 # Build settings
 markdown: kramdown
 permalink: pretty
-
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - _excludes
+  - src
+  - node_modules
+  - post.sh
+  - serve.sh
+  - README.md
+  - moveDependenciesToDist.sh
+  - package.json
+  - LICENSE
+  - gruntfile.js
+include:
+  - _pages
 plugins:
   - jekyll-sitemap
   - jekyll-github-metadata
   - jekyll-seo-tag
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
