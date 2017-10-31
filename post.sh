@@ -108,17 +108,16 @@ echo "title: \"$title\"" >> $filename
 #   echo "comments: false" >> $filename
 # fi
 echo "date: `date +%F\ %H:%M:%S\ %z`" >> $filename
-echo "categories: blog" >> $filename
+read -p "categories: " categories
+if [ "$categories" ]; then
+  echo "categories: blog $categories" >> $filename
+fi
 echo "author: Morgan Timms" >> $filename
 echo "license: CC-BY-4.0" >> $filename
 echo "thumbnail: " >> $filename
 echo "thumbnailAttr: " >> $filename
 echo "thumbnailAttrUrl: " >> $filename
 echo "description: " >> $filename
-read -p "tags: " tags
-if [ "$tags" ]; then
-  echo "tags: $tags" >> $filename
-fi
 echo "excerpt_separator: <!--more-->" >> $filename
 echo "---" >> $filename
 echo >> $filename

@@ -36,13 +36,10 @@
 
                         {% for sublink in link.sublinks %}
                             {% if page.url == sublink.url %}
-                                <a class="dropdown-item {{class}}"
+                                <a class="dropdown-item {{class}}" href="{{ site.baseurl }}{{ sublink.url }}">{{ sublink.title }}</a>
                             {% else %}
-                                <a class="dropdown-item"
+                                <a class="dropdown-item" href="{{ site.baseurl }}{{ sublink.url }}">{{ sublink.title }}</a>
                             {% endif %}
-                                    href="{{ site.baseurl }}{{ sublink.url }}">
-                                    {{ sublink.title }}
-                                </a>
                         {% endfor %}
 
                     </div>

@@ -25,4 +25,11 @@
   }{% unless forloop.last %},{% endunless %}
 {% endif %}
 {% endfor %}
+{% assign links = site.data.navigation %}
+{% for link in links %}
+{
+  "title": {{link.title}}
+}
+{% endfor %}
+
 ]
