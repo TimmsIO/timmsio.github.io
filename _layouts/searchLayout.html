@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+        {{ page.title }} - {{ site.title }}
+    </title>
+
+    {% include styles.html %} {% include analytics.html %}
+{% seo %}
+</head>
+
+<body>
+    <a id="skippy" class="sr-only sr-only-focusable" href="#content">
+        <span class="skiplink-text">Skip to main content</span>
+    </a>
+
+    {% include navbar.html %} {% if page.contactShow %} {% capture contact %}{% include contactPanel.md %}{% endcapture %}
+
+
+    <div class="row row-offcanvas row-offcanvas-right">
+        <div class="col-12 col-md-4 sidebar-offcanvas contacts" style="max-width: 20em; background:transparent">
+            <div class="container">
+                <h4 class="card-title">Morgan Timms</h4>
+                <hr> contact me at {{ contact | markdownify }}
+                <hr>
+            </div>
+        </div>
+        <div class="col-12 col-md-8">
+
+
+            {% endif %}
+
+
+
+            <div class="container">
+              <p style="text-align: right;">
+                <img src="/assets/images/search-by-algolia-white.svg" alt="Search by algolia" style="max-width: 200px;"/>
+              </p>
+            </div>
+            <div class="container">
+                <div id="content">
+
+                    {% if page.toc == true %}
+                    <div class="section-nav">
+                        {% include toc.html html=content %}
+                    </div>
+                    {% endif %}
+                    {% if page.title == 'root' %}
+
+                    <h2>Check Out My Recent Post:</h2>
+
+                    {% for post in site.posts limit:1 %}
+                    <div>
+                        {% include blogPostLinkPanel.html %}
+                    </div> {% endfor %} {% endif %} {% if page.title == 'Blog' %}
+                    <h1>Blog Index</h1>
+                    <p>The full list of posts on this site.</p>
+                    <hr>
+                    <div class="row marketing">
+                        <div class="col-lg-12">
+                            {% for post in site.posts %} {% include blogPostLinkPanel.html %}
+                            {% endfor %}
+                        </div>
+                    </div>
+
+
+                    {% endif %}  {{ content }}
+                </div>
+            </div>
+
+            {% if page.contactShow%}
+        </div>
+    </div>
+    {% endif %}
+
+    <footer class="footer navbar-fixed-bottom">
+        <div class="container h-100">
+            <div class="row h-100">
+                <div class="my-auto">
+                    <span class="text-white">
+                        &copy; {{ "now" | date: "%Y" }} TimmsIO
+                    </span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    {% include scripts.html %}
+
+</body>
+
+</html>

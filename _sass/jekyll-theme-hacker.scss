@@ -308,6 +308,17 @@ ol li:before {
   font-weight: bold;
 }
 
+.snippet-list-item:before {
+  content: '..."';
+  color: #b5e853;
+  font-weight: bold;
+}
+.snippet-list-item:after {
+  content: '"...';
+  color: #b5e853;
+  font-weight: bold;
+}
+
 .list-group-item {
   background:  rgba(255, 255, 255, 0.15);
   border-color: #b5e853;
@@ -389,6 +400,7 @@ hr {
 }
 
 .btn:hover {
+  border: 2px solid #b5e853 !important;
   background: -webkit-linear-gradient(top, rgba(40, 40, 40, 0.6), rgba(35, 35, 35, 0.6) 50%, rgba(10, 10, 10, 0.8) 50%, rgba(0, 0, 0, 0.8));
 }
 
