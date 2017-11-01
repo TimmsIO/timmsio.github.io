@@ -26,6 +26,27 @@ a.dropdown-item {
                0 0 10px rgba(181, 232, 83, 0.1);
 }
 
+figure.blog-post-thumb {
+  text-align: center;
+
+  img.post-thumb {
+    min-width: 80%;
+  }
+
+  figcaption.blog-post-thumb-capt {
+    text-align: left;
+  }
+}
+
+.quote {
+  font-style: italic;
+}
+
+.quote-attr {
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
 .container {
   width: 90%;
   max-width: 800px;

@@ -112,11 +112,16 @@ read -p "categories: " categories
 if [ "$categories" ]; then
   echo "categories: blog $categories" >> $filename
 fi
+read -p "tags: " tags
+if [ "$tags" ]; then
+  echo "tags: $tags" >> $filename
+fi
 echo "author: Morgan Timms" >> $filename
 echo "license: CC-BY-4.0" >> $filename
 echo "thumbnail: " >> $filename
 echo "thumbnailAttr: " >> $filename
 echo "thumbnailAttrUrl: " >> $filename
+echo "thumbnailAlt: " >> $filename
 echo "description: " >> $filename
 echo "excerpt_separator: <!--more-->" >> $filename
 echo "---" >> $filename
