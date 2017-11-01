@@ -19,7 +19,14 @@ module.exports = function (grunt) {
       'src/js/app/tools/*.js'
     ],
     destAssetsFolder: 'assets/js/tools/'
-  }
+  };
+  var searchTools = {
+    compiledName: 'search',
+    contributingFiles: [
+      'src/js/app/search/*.js'
+    ],
+    destAssetsFolder: 'assets/js/search/'
+  };
 
   // Project configuration.
   grunt.initConfig({
@@ -35,6 +42,10 @@ module.exports = function (grunt) {
       tooljs: {
         src: concatDepot + toolsFilter.compiledName + '.js',
         dest: toolsFilter.destAssetsFolder + toolsFilter.compiledName + '.min.js'
+      },
+      searchjs: {
+        src: concatDepot + searchTools.compiledName + '.js',
+        dest: searchTools.destAssetsFolder + searchTools.compiledName + '.min.js'
       }
     },
     concat: {
@@ -45,6 +56,10 @@ module.exports = function (grunt) {
       tooljs: {
         src: toolsFilter.contributingFiles,
         dest: concatDepot + toolsFilter.compiledName + '.js',
+      },
+      searchjs: {
+        src: searchTools.contributingFiles,
+        dest: concatDepot + searchTools.compiledName + '.js',
       },
     }
   });
@@ -58,9 +73,11 @@ module.exports = function (grunt) {
     // concat tasks
     'concat:sitejs',
     'concat:tooljs',
+    'concat:searchjs',
     // minify tasks
     'uglify:sitejs',
-    'uglify:tooljs'
+    'uglify:tooljs',
+    'uglify:searchjs'
   ]);
 
 };
