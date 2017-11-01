@@ -9,14 +9,14 @@
     "logs",
     "*nix"
   ],
-  "utilities": [
-    {
+  "utilities": [{
       "title": "CyberChef",
       "tags": [
         "application",
         "website",
         "forensics"
       ],
+      "added": "2017-10-26 23:40:52 +1100",
       "href": "https://gchq.github.io/CyberChef/",
       "aria": "CyberChef JS utility github page",
       "description": "CyberChef is a collection of useful tools for data processing and analysis written by GCHQ for people in infosec. Has a million and one uses!\n\nI find myself using it a lot for URL encoding and decoding, but it does a lot more than that."
@@ -28,6 +28,7 @@
         "website",
         "recon"
       ],
+      "added": "2017-10-26 23:40:52 +1100",
       "href": "https://censys.io/",
       "aria": "censys.io internet records search",
       "description": "Censys.io is similar to shodan, but has search functionality I have found useful for becoming one with the threat-surface. It give a very quick picture of the security posture of an organisation once you come to terms with the search interface."
@@ -40,6 +41,7 @@
         "forensics",
         "malware"
       ],
+      "added": "2017-10-26 23:40:52 +1100",
       "href": "https://malwr.com/",
       "aria": "Malwr.com Malware Analysis",
       "description": "Malwr.com is great for quickly getting reports from a Cuckoo Sandbox analysis of malware files. It is an easy way to get some quick answers for phishing email payloads. Be aware though that uploading anything to any sandbox on the internet will disclose information."
@@ -51,6 +53,7 @@
         "website",
         "recon"
       ],
+      "added": "2017-10-26 23:40:52 +1100",
       "href": "https://dnsdumpster.com/",
       "aria": "DNS Dumpster website",
       "description": "DNS Dumpster is a great tool for OSINT around a domain. It retrieves all the DNS records associated with the domain, and creates a tree of the DNS relationships between the IP addresses associated with the domain.\n\nUseful tool for meetings because of the clean interface and density of information."
@@ -63,7 +66,8 @@
         "windows",
         "logs",
         "forensics"
-        ],
+      ],
+      "added": "2017-10-26 23:40:52 +1100",
       "href": "https://github.com/RolandPheasant/TailBlazer",
       "aria": "TailBlazer log tailing .NET application",
       "description": "While amazing for log files, it is also great for opening big text files. I once needed to open a 600MB .csv and this made that easy. You can get it from RolandPheasant's GitHub page, linked above."
@@ -74,6 +78,7 @@
         "reference",
         "website"
       ],
+      "added": "2017-10-26 23:40:52 +1100",
       "href": "https://tmuxcheatsheet.com/",
       "aria": "Tmux cheatsheet website",
       "description": "I use Tmux at home and at work, but I don't always remember the hotkeys. This website helps with that."
@@ -86,6 +91,7 @@
         "malware",
         "website"
       ],
+      "added": "2017-10-26 23:40:52 +1100",
       "href": "https://www.hybrid-analysis.com/",
       "aria": "Hybrid Analysis Malware Sandbox",
       "description": "This is a decent malware analysis sandbox that provides high quality reports including links to virustotal. It is similar to Malwr.com, but it can handle larger files. Like all virus analysis sandboxes, don't upload documents with sensitive information."
@@ -93,91 +99,36 @@
     {
       "title": "Regex101",
       "tags": [
-        "application","reference","website"
+        "application", "reference", "website"
       ],
+      "added": "2017-10-26 23:40:52 +1100",
       "href": "https://regex101.com/",
       "aria": "Regex 101 regex builder tool",
       "description": "Regular expressions can be very frustrating to write, and having a good IDE for it takes a lot of the stress out of it. Regex 101 is a great tool for building and testing regex. I use it a lot when I need to do custom field extractions from logs in Splunk."
     },
     {
       "title": "URLquery.net",
-      "tags": [ "malware","recon","website"
-      ],
+      "tags": ["malware", "recon", "website"],
+      "added": "2017-10-26 23:40:52 +1100",
       "href": "https://urlquery.net/",
       "aria": "url-query web-based malware analysis service",
       "description": "URLquery.net is a very useful tool for doing quick analysis of what heppens when you visit a link. It even includes output of Suricata."
     },
     {
       "title": "Daring Fireball Markdown Syntax Guide",
-      "tags": [ "website","reference"
-      ],
+      "tags": ["website", "reference"],
+      "added": "2017-10-26 23:40:52 +1100",
       "href": "https://daringfireball.net/projects/markdown/syntax",
       "aria": "Daring Fireball Markdown Syntax Guide",
       "description": "I use markdown for almost everything. This website is generated from markdown, I generate presentations for work from markdown files. I sometimes need a refresher on the lesser used features though, and this is a great guide for that."
     },
     {
       "title": "searchsploit",
-      "tags": [ "*nix", "forensics", "recon","reference","desktop"
-      ],
+      "tags": ["*nix", "forensics", "recon", "reference", "desktop"],
+      "added": "2017-10-26 23:40:52 +1100",
       "href": "https://www.exploit-db.com/searchsploit/#install",
       "aria": "Searchsploit manual installatio instructions",
       "description": "Searchsploit is the easiest way to search the exploit database."
-    },
-    {
-      "title": "",
-      "tags": [
-      ],
-      "href": "",
-      "aria": "",
-      "description": ""
-    },
-    {
-      "title": "",
-      "tags": [
-      ],
-      "href": "",
-      "aria": "",
-      "description": ""
-    },
-    {
-      "title": "",
-      "tags": [
-      ],
-      "href": "",
-      "aria": "",
-      "description": ""
-    },
-    {
-      "title": "",
-      "tags": [
-      ],
-      "href": "",
-      "aria": "",
-      "description": ""
-    },
-    {
-      "title": "",
-      "tags": [
-      ],
-      "href": "",
-      "aria": "",
-      "description": ""
-    },
-    {
-      "title": "",
-      "tags": [
-      ],
-      "href": "",
-      "aria": "",
-      "description": ""
-    },
-    {
-      "title": "",
-      "tags": [
-      ],
-      "href": "",
-      "aria": "",
-      "description": ""
     }
   ]
 }

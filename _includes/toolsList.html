@@ -24,8 +24,8 @@
 </div>
 
 <hr> {% for tool in tools %} {% if tool.title != '' %}
-<div class="link-panel-container" data-tags="[{{ tool.tags | join: " , " }}]">
-  <a href="{{ tool.href }}" target="_blank" aria-label="{{ tool.aria }}">
+<div class="link-panel-container" data-tags="[{{ tool.tags | join: " , " }}]" id="{{ tool.title  | remove: " " | escape | remove: "." }}">
+  <a href="{{ tool.href }}" name="{{ tool.title  | remove: " " | escape | remove: "." }}" target="_blank" aria-label="{{ tool.aria }}">
     <span class="link-panel"></span>
   </a>
   <h3 class="tool-brand">{{ tool.title }}</h3>
