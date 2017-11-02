@@ -36,7 +36,31 @@
                     {% endif %}
                 </p>
             {% endif %}
+            {% if page.tags %}
+            <label class="tools-filter-button" for="item-1">
+                    <span>
+                            This post is part of a series -- click here to view
+                    </span>
+                  </label>
+                  <input type="checkbox" name="one" id="item-1" onchange="filterCheckHandler(this);" checked>
+                  <div class="hide">
+                    {% include postSeriesBar.html %}
+                  </div>
+        {% endif %}
             <hr>
+            {% if page.disclaimer != "" %}
+            <div class="disclaimer">
+                {{ page.disclaimer }}
+            </div>
+            <hr>
+        {% endif %}
+            {% if page.instructions == true %}
+                <div class="instructions-link">
+                    <a href="{{ page.instructionsLink }}">click here to skip to the instructions</a>
+                </div>
+                <div>----------
+                    </div>
+            {% endif %}
             {% if page.toc == true %}
             <div class="section-nav">
                     {% include toc.html html=content %}

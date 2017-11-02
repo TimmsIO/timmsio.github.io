@@ -221,12 +221,13 @@ div.tags-list {
   height:100%;
   top:0;
   left: 0;
-
   z-index: 1;
+}
 
-  /* fixes overlap error in IE7/8,
-     make sure you have an empty gif */
-  background-image: url('/assets/images/empty.gif');
+div.disclaimer:before {
+  content:"Disclaimer: ";
+  font-size: 1.3em;
+  color: #b5e853;
 }
 
 div.dropdown-menu {

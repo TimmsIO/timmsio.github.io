@@ -1,0 +1,37 @@
+{% if page.tags %}
+    {% if page.tags contains "simplesec" %}
+    <div>
+      <h6>
+        SimpleSec Series:
+        <div>
+            {% assign seriesData = site.data.seriesData %}
+            {% for seriesDatum in seriesData %}
+              {% if seriesDatum.title == "simplesec" %}
+                {{ seriesDatum.description }}
+              {% endif %}
+            {% endfor %}
+        </div>
+      </h6>
+      {% assign sorted = site.posts | sort:"date" %}
+
+      {% for post in sorted %}
+
+      {% if post.tags contains "simplesec" %}
+      <div>
+          <a href="{{ page.url }}">{{ post.title }}</a>
+          <div class="posted-statement">posted <span class="postDate">{{ post.date }}</span></div>
+          <div>
+            {{ post.description }}
+          </div>
+          <div>
+            ------
+          </div>
+      </div>
+
+      {% endif %}
+
+      {% endfor %}
+    </div>
+    <hr>
+    {% endif %}
+{% endif %}

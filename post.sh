@@ -122,7 +122,11 @@ echo "thumbnail: " >> $filename
 echo "thumbnailAttr: " >> $filename
 echo "thumbnailAttrUrl: " >> $filename
 echo "thumbnailAlt: " >> $filename
-echo "description: " >> $filename
+echo "instructions: false" >> $filename
+echo "instructionsLink: \"\"" >> $filename
+echo "disclaimer: \"\"" >> $filename
+echo "published: false" >> $filename
+echo "toc: false" >> $filename
 echo "excerpt_separator: <!--more-->" >> $filename
 echo "---" >> $filename
 echo >> $filename
