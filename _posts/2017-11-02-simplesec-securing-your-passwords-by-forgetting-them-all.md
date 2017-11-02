@@ -7,6 +7,7 @@ tags: simplesec
 author: Morgan Timms
 license: CC-BY-4.0
 thumbnail: /assets/images/posts/forgettingPasswords-min.png
+imagealt: "Liquid dripping into a brain shilouette and draining out at an equal rate."
 thumbnailAttr: Nevit Dilmen
 thumbnailAttrUrl: https://commons.wikimedia.org/wiki/File:Mr_pipo_Learning_and_forgetting.svg
 description: "'To keep a secret you must also hide it from yourself': or why you should never use passwords you can remember"
