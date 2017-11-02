@@ -11,7 +11,7 @@
     {% include styles.html %} {% include analytics.html %}
     {% seo %}
     {% if page.thumbnail %}
-    <meta property="og:image" content="{{ page.thumbnail }}">
+    <meta property="og:image" content="{{ site.url }}{{ page.thumbnail }}">
     {% endif %}
 </head>
 
