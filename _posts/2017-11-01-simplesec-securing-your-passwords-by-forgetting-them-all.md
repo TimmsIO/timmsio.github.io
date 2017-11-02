@@ -14,7 +14,7 @@ excerpt_separator: <!--more-->
 instructions: true
 instructionsLink: "#i-get-it-how-do-i-start"
 disclaimer: "The contents of this post align with risk mitigation in an average internet user's threat model. It wasn't written with consideration to risk controls outside of that model."
-published: false
+published: true
 toc: true
 ---
 
