@@ -4,7 +4,7 @@ title: "SimpleSec: Securing Your Passwords by Forgetting Them All"
 date: 2017-11-02 11:41:36 +1100
 categories: blog tutorial
 tags: simplesec
-author: Morgan Timms
+author: Morgaine Timms
 license: CC-BY-4.0
 thumbnail: /assets/images/posts/forgettingPasswords-min.png
 imagealt: "Liquid dripping into a brain shilouette and draining out at an equal rate."

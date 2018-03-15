@@ -23,7 +23,7 @@
     <div class="row row-offcanvas row-offcanvas-right">
         <div class="col-12 col-md-4 sidebar-offcanvas contacts" style="max-width: 20em; background:transparent">
             <div class="container">
-                <h4 class="card-title">Morgan Timms</h4>
+                <h4 class="card-title"></h4>
                 <hr> contact me at {{ contact | markdownify }}
                 <hr>
             </div>
@@ -41,24 +41,7 @@
                         {% include toc.html html=content %}
                     </div>
                     {% endif %}
-                    {% if page.title == 'root' %}
-
-                    <h2>Check Out My Recent Post:</h2>
-
-                    {% for post in site.posts limit:1 %}
-                    <div>
-                        {% include blogPostLinkPanel.html %}
-                    </div> {% endfor %} {% endif %} {% if page.title == 'Blog' %}
-                    <h1>Blog Index</h1>
-                    <p>The full list of posts on this site.</p>
-                    <hr>
-                    <div class="row marketing">
-                        <div class="col-lg-12">
-                            {% for post in site.posts %} {% include blogPostLinkPanel.html %}
-                            {% endfor %}    
-                        </div>
-                    </div>
-                    {% endif %}  {{ content }}
+                    {{ content }} 
                 </div>
             </div>
 

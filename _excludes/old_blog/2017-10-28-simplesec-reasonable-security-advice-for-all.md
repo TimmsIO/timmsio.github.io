@@ -4,7 +4,7 @@ title: "SimpleSec: Reasonable Security Advice for All"
 date: 2017-10-28 14:17:22 +1100
 categories: blog
 tags: simplesec
-author: Morgan Timms
+author: Morgaine Timms
 license: CC-BY-4.0
 thumbnail: /assets/images/posts/lowHangingFruit-min.jpg
 thumbnailAttr: Jeff Kubina

@@ -1,11 +1,4 @@
-- title: About
-  url: /about/
-- title: Blog
-  url: /blog/
-- title: Utilities
-  url: /utils/
-  sublinks:
-    - title: externalTools
-      url: /utils/tools
-    - title: easyphrase
-      url: /utils/easyphrase/
+- title: usefulTools
+  url: /utils/tools
+- title: easyphrase
+  url: /utils/easyphrase/

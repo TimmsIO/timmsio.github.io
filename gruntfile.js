@@ -1,7 +1,7 @@
 module.exports = function (grunt) {
 
   // files configuration
-  var siteName = "Morgan Timms -- Timms.IO"
+  var siteName = "Morgaine Timms -- Timms.IO"
   var concatDepot = 'src/_concatted/'
 
   // source configurations

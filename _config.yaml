@@ -3,8 +3,8 @@ title: TimmsIO
 description: Timms.IO -- Yet another information security blog.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://timms.io" # the base hostname & protocol for your site, e.g. http://example.com
-author: Morgan Timms
-email: morgan@timms.io
+author: Morgaine Timms
+email: morgaine@timms.io
 twitter:
   username: Timms_IO
 github:
@@ -13,7 +13,7 @@ github_username:  TimmsIO
 repository: TimmsIO/timmsio.github.io
 
 social:
-  name: Morgan Timms
+  name: Morgaine Timms
   links:
     - https://keybase.io/tiosect
     - https://twitter.com/Timms_IO

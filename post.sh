@@ -116,7 +116,7 @@ read -p "tags: " tags
 if [ "$tags" ]; then
   echo "tags: $tags" >> $filename
 fi
-echo "author: Morgan Timms" >> $filename
+echo "author: Morgaine Timms" >> $filename
 echo "license: CC-BY-4.0" >> $filename
 echo "thumbnail: " >> $filename
 echo "thumbnailAttr: " >> $filename

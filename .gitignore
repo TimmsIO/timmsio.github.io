@@ -4,3 +4,4 @@ _site/
 gemfile.lock
 node_modules/
 src/_concatted/
+vendor/

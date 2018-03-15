@@ -54,15 +54,4 @@
             {% endif %}
         {% endfor %}
     </ul>
-    <!-- navbar search -->
-    <form class="form-inline my-2 my-lg-0" onsubmit="submitSearch(event)">
-        <input class="form-control mr-sm-2" type="text" placeholder="Search" id="search-string">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
-    <script>
-        function submitSearch(e) {
-      e.preventDefault();
-      document.location.href='/search/?query='+$('#search-string').val().trim();
-      }
-      </script>
 </nav>
