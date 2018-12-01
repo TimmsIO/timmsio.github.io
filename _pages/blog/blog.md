@@ -9,11 +9,11 @@ permalink: /blog
 
 # Blog Listing
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-        <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
-        <blockquote>{{ post.description }}</blockquote>
-    </li>
-  {% endfor %}
-</ul>
+***
+
+{% for post in site.posts %}
+<p>
+<h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+<blockquote>{{ post.description }}</blockquote>
+</p>
+{% endfor %}

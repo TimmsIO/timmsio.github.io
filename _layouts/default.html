@@ -21,17 +21,13 @@
         {% include navbar.html %}
     </header>
     <main role=main class="container">
-        <div class="container">
-            <div id="content">
-                <section id="main_content" class="inner">
+        <div id="main_content" class="container inner">
                     {% if page.toc == true %}
                     <div class="section-nav">
                         {% include toc.html html=content %}
                     </div>
                     {% endif %}
                     {{ content }}
-                </section>
-            </div>
         </div>
 
         {% if page.contactShow%}

@@ -7,7 +7,7 @@ contactShow: true
 
 # Morgaine Timms
 
-I'm an infosec nerd, security engineer, red-team hopeful, and a former software engineer working towards the OSCP.
+I'm an infosec nerd, security engineer, red-team hopeful, and former software engineer working towards the OSCP.
 
 Occasionally I write security-focused software, [which you can see here](/projects).
 
