@@ -137,7 +137,8 @@ pre, code {
 
 pre {
   padding: 10px 20px;
-  overflow: auto;
+  
+
 }
 
 code {
@@ -148,6 +149,8 @@ code {
 pre code {
   display: block;
   box-shadow: none;
+  overflow: scroll;
+  min-width: 55em;
 }
 
 blockquote {
