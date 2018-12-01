@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 
 <head>
@@ -10,6 +10,7 @@
 
     {% include styles.html %} {% include analytics.html %}
     {% seo %}
+
     {% if page.thumbnail %}
     <meta property="og:image" content="{{ site.url }}{{ page.thumbnail }}">
     <meta property="og:image:alt" content="{{ page.imagealt }}">
@@ -21,67 +22,32 @@
         <span class="skiplink-text">Skip to main content</span>
     </a>
 
-    {% include navbar.html %}
-    <div class="container">
-        <div id="content">
-
-            <h1>{{ page.title }}</h1>
-            {% if page.author or page.license %}
-                <p class="text-right">
-                    {% if page.author %}
-                        By {{ page.author }}
-                    {% endif %}
-                    {% if page.license %}
-                        </br>
-                        {{ page.license }}
-                    {% endif %}
-                </p>
-            {% endif %}
-            {% if page.tags %}
-            <label class="tools-filter-button" for="item-1">
-                    <span>
-                            This post is part of a series -- click here to view
-                    </span>
-                  </label>
-                  <input type="checkbox" name="one" id="item-1" onchange="filterCheckHandler(this);" checked>
-                  <div class="hide">
-                    {% include postSeriesBar.html %}
-                  </div>
-        {% endif %}
-            <hr>
-            {% if page.disclaimer != "" %}
-            <div class="disclaimer">
-                {{ page.disclaimer }}
-            </div>
-            <hr>
-        {% endif %}
-            {% if page.instructions == true %}
-                <div class="instructions-link">
-                    <a href="{{ page.instructionsLink }}">click here to skip to the instructions</a>
-                </div>
-                <div>----------
+    <header>
+        {% include navbar.html %}
+    </header>
+    <main role=main class="container">
+        <div class="container">
+            <div id="content">
+                
+                <section id="main_content" class="inner">
+                    {% if page.toc == true %}
+                    <div class="section-nav">
+                        {% include toc.html html=content %}
                     </div>
-            {% endif %}
-            {% if page.toc == true %}
-            <div class="section-nav">
-                    {% include toc.html html=content %}
-            </div>
-            {% endif %}
-            {{ content }}
-        </div>
-    </div>
-    <footer class="footer navbar-fixed-bottom">
-        <div class="container h-100">
-            <div class="row h-100">
-                <div class="my-auto">
-                    <span class="text-white">
-                        &copy; {{ "now" | date: "%Y" }} TimmsIO
-                    </span>
-                </div>
+                    {% endif %}
+                    {{ content }}
+                </section>
             </div>
         </div>
-    </footer>
+
+        {% if page.contactShow%}
+        </div>
+        </div>
+        {% endif %}
+    </main>
+
     {% include scripts.html %}
+
 </body>
 
 </html>

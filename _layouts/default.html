@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 
 <head>
@@ -9,7 +9,7 @@
     </title>
 
     {% include styles.html %} {% include analytics.html %}
-{% seo %}
+    {% seo %}
 </head>
 
 <body>
@@ -17,50 +17,28 @@
         <span class="skiplink-text">Skip to main content</span>
     </a>
 
-    {% include navbar.html %} {% if page.contactShow %} {% capture contact %}{% include contactPanel.md %}{% endcapture %}
-
-
-    <div class="row row-offcanvas row-offcanvas-right">
-        <div class="col-12 col-md-4 sidebar-offcanvas contacts" style="max-width: 20em; background:transparent">
-            <div class="container">
-                <h4 class="card-title"></h4>
-                <hr> contact me at {{ contact | markdownify }}
-                <hr>
-            </div>
-        </div>
-        <div class="col-12 col-md-8">
-
-
-            {% endif %}
-
-            <div class="container">
-                <div id="content">
-
+    <header>
+        {% include navbar.html %}
+    </header>
+    <main role=main class="container">
+        <div class="container">
+            <div id="content">
+                <section id="main_content" class="inner">
                     {% if page.toc == true %}
                     <div class="section-nav">
                         {% include toc.html html=content %}
                     </div>
                     {% endif %}
-                    {{ content }} 
-                </div>
-            </div>
-
-            {% if page.contactShow%}
-        </div>
-    </div>
-    {% endif %}
-
-    <footer class="footer navbar-fixed-bottom">
-        <div class="container h-100">
-            <div class="row h-100">
-                <div class="my-auto">
-                    <span class="text-white">
-                        &copy; {{ "now" | date: "%Y" }} TimmsIO
-                    </span>
-                </div>
+                    {{ content }}
+                </section>
             </div>
         </div>
-    </footer>
+
+        {% if page.contactShow%}
+        </div>
+        </div>
+        {% endif %}
+    </main>
 
     {% include scripts.html %}
 

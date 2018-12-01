@@ -7,24 +7,32 @@ contactShow: true
 
 # Morgaine Timms
 
-I am an infosec nerd, and a former software engineer who turned to the dark side.
+I'm an infosec nerd, security engineer, red-team hopeful, and a former software engineer working towards the OSCP.
 
-I am currently an operational security officer at an exam delivery company which houses high security data throughout the world.
+Occasionally I write security-focused software, [which you can see here](/projects).
 
-## Security Tools I've Made
+I also sometimes write blog posts, [which are here](/blog).
 
-* easyphrase
+## Contact
 
-    easyphrase is a simple password generator to make generating strong passwords easier.
-    [Check it out](/utils/easyphrase)
+Email: [PGP key][pgp]
+<br>
+Twitter: [sectorsect][twitter]
+<br>
+Github: [sectorsect][gh]
+<br>
+NPM: [timmsio][npm]
+<br>
+Keybase: [tiosect](https://keybase.io/tiosect)
 
-* vcheck
-
-    vcheck is a tool to download vulnerability feeds, normalise their content, and search against a watchlist. I fin it very useful, but it isn't quite ready, but should be soon.
+[twitter]: https://twitter.com/sectorsect
+[pgp]: /assets/misc/mt.pgp.txt "A2D1 316F A7BD 87F6 D0F7  DA73 42A6 A028 415F CE85"
+[gh]: https://github.com/sectorsect "My github account"
+[npm]: https://www.npmjs.com/~timmsio "My NPM account"
 
 ## Infosec Experience
 
-- corporate incident response
+- basic corporate incident response
 - log analysis and threat hunting
 - creating and leading training programmes
   - basic corporate security awareness programme

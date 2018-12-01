@@ -94,49 +94,38 @@ filetitle=$( echo ${1// /-} | awk '{print tolower($0)}'| sed 's/[^a-z\-]*//g')
 
 # name of file
 filename="$folder`date +%F`-$filetitle.md"
-echo $filename
+echo "$filename"
 
 
 ########## Adding to file ##########
 
-echo "---" >> $filename
-echo "layout: $layout" >> $filename
-echo "title: \"$title\"" >> $filename
-# if ask "Allow comments?" $comments; then
-#   echo "comments: true" >> $filename
-# else
-#   echo "comments: false" >> $filename
-# fi
-echo "date: `date +%F\ %H:%M:%S\ %z`" >> $filename
-read -p "categories: " categories
-if [ "$categories" ]; then
-  echo "categories: blog $categories" >> $filename
-fi
-read -p "tags: " tags
-if [ "$tags" ]; then
-  echo "tags: $tags" >> $filename
-fi
-echo "author: Morgaine Timms" >> $filename
-echo "license: CC-BY-4.0" >> $filename
-echo "thumbnail: " >> $filename
-echo "thumbnailAttr: " >> $filename
-echo "thumbnailAttrUrl: " >> $filename
-echo "thumbnailAlt: " >> $filename
-echo "instructions: false" >> $filename
-echo "instructionsLink: \"\"" >> $filename
-echo "disclaimer: \"\"" >> $filename
-echo "published: false" >> $filename
-echo "toc: false" >> $filename
-echo "excerpt_separator: <!--more-->" >> $filename
-echo "---" >> $filename
-echo >> $filename
-echo >> $filename
-echo "<!--more-->" >> $filename
-echo >> $filename
+## setup the frontmatter
+echo "---" >> "$filename"
+echo "layout: $layout" >> "$filename"
+echo "title: \"$title\"" >> "$filename"
+echo "date: `date +%F\ %H:%M:%S\ %z`" >> "$filename"
+echo "categories: [blog]" >> "$filename"
+echo "author: Morgaine Timms" >> "$filename"
+echo "license: CC-BY-4.0" >> "$filename"
+echo "thumbnail: " >> "$filename"
+echo "thumbnailAttr: " >> "$filename"
+echo "thumbnailAttrUrl: " >> "$filename"
+echo "thumbnailAlt: " >> "$filename"
+echo "published: false" >> "$filename"
+echo "toc: false" >> "$filename"
+echo "description: \"TODO:\"" >> "$filename"
+echo "excerpt_separator: <!--more-->" >> "$filename"
+echo "---" >> "$filename"
+
+## setup the body of the post
+echo >> "$filename"
+echo >> "$filename"
+echo "<!--more-->" >> "$filename"
+echo >> "$filename"
 
 # open in chosen editor
 if [ "$editor" == "vim" ]; then
-  vim + $filename
+  vim + "$filename"
 else
-  $editor $filename
+  $editor "$filename"
 fi

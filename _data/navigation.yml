@@ -1,4 +1,7 @@
-- title: usefulTools
-  url: /utils/tools
+
+- title: blog
+  url: /blog
+- title: projects
+  url: /projects
 - title: easyphrase
   url: /utils/easyphrase/
