@@ -13,6 +13,15 @@ Occasionally I write security-focused software, [which you can see here](/projec
 
 I also sometimes write blog posts, [which are here](/blog).
 
+This is the most recent one:
+
+{% for post in site.posts limit:1 %}
+<p>
+<h5><a href="{{ post.url }}">{{ post.title }}</a></h5>
+<blockquote>{{ post.description }}</blockquote>
+</p>
+{% endfor %}
+
 ## Contact
 
 Email: [PGP key][pgp]
@@ -50,7 +59,7 @@ Keybase: [tiosect](https://keybase.io/tiosect)
 
 - C#
   - WPF Desktop Applications
-  - sharepoint applications
+  - Sharepoint applications
 - powershell scripting
 - bash scripting
 - typeScript / javaScript
@@ -62,4 +71,3 @@ Keybase: [tiosect](https://keybase.io/tiosect)
 - SQL
   - complex data migrations
   - data investigations on unclean datasets
-

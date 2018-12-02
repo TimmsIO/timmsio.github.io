@@ -102,6 +102,7 @@ echo "$filename"
 ## setup the frontmatter
 echo "---" >> "$filename"
 echo "layout: $layout" >> "$filename"
+echo "assetpath: TODO: " >> "$filename"
 echo "title: \"$title\"" >> "$filename"
 echo "date: `date +%F\ %H:%M:%S\ %z`" >> "$filename"
 echo "categories: [blog]" >> "$filename"
