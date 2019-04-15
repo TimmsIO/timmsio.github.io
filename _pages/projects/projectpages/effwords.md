@@ -9,7 +9,7 @@ permalink: /projects/effwords/
 
 # EFFwords
 
-Github: [sectorsect/EFFWords](https://github.com/sectorsect/EFFWords)
+Github: [Sh3r4/EFFWords](https://github.com/Sh3r4/EFFWords)
 
 EFFwords is a golang passphrase generator based on the [EFF diceware passphrase method][eff].
 
@@ -42,7 +42,7 @@ $ EFFWords -Z "5hEehPPPnK&5wQ8^8Pm%h@n6KN0cUJobXOGtp3BW75n*xBYg1wjbzDNwhGRLh9RR3
 
 ``` txt
 
-Author:  Morgaine Timms   (@sectorsect)
+Author:  Morgaine Timms   (@Sh3r4)
 License: MIT
 Warning: Some of the following options when used in combination can
          significantly weaken the pass-phrases generated.

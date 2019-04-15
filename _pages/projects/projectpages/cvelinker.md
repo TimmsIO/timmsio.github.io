@@ -9,7 +9,7 @@ permalink: /projects/cvelinker/
 
 # CVELINKER
 
-Github: [sectorsect/cvelinker](https://github.com/sectorsect/cvelinker)
+Github: [Sh3r4/cvelinker](https://github.com/Sh3r4/cvelinker)
 <br>
 Demo Output: [sample report](/projects/cvelinker/samplereport)
 

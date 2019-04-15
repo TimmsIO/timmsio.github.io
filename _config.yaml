@@ -6,19 +6,20 @@ url: "https://timms.io" # the base hostname & protocol for your site, e.g. http:
 author: Morgaine Timms
 email: morgaine@timms.io
 twitter:
-  username: sectorsect
+  username: sh3r4_hax
 github:
-  username: sectorsect
-github_username:  sectorsect
+  username: Sh3r4
+github_username:  Sh3r4
 repository: TimmsIO/timmsio.github.io
 
 social:
   name: Morgaine Timms
   links:
     - https://keybase.io/tiosect
-    - https://twitter.com/Timms_IO
-    - https://github.com/TimmsIO
-    - https://www.linkedin.com/in/morgan-timms-879354144/
+    - https://twitter.com/sh3r4_hax
+    - https://github.com/Sh3r4
+    - https://gitlab.com/Sh3r4
+    - https://www.linkedin.com/in/morgaine-timms-879354144/
 
 lang: en_AU
 

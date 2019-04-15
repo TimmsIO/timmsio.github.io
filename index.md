@@ -7,7 +7,7 @@ contactShow: true
 
 # Morgaine Timms
 
-I'm an infosec nerd, security engineer, red-team hopeful, and former software engineer working towards the OSCP.
+I'm an infosec nerd, security engineer, penetration tester, CTFer, and former software engineer. And I'm working on my OSCP.
 
 Occasionally I write security-focused software, [which you can see here](/projects).
 
@@ -26,42 +26,46 @@ This is the most recent one:
 
 Email: [PGP key][pgp]
 <br>
-Twitter: [sectorsect][twitter]
+Twitter: [sh3r4_hax][twitter]
 <br>
-Github: [sectorsect][gh]
+Github: [Sh3r4][gh]
 <br>
 NPM: [timmsio][npm]
 <br>
 Keybase: [tiosect](https://keybase.io/tiosect)
+<br>
+LinkedIN: [Morgaine](https://www.linkedin.com/in/morgaine-timms-879354144/)
 
-[twitter]: https://twitter.com/sectorsect
+[twitter]: https://twitter.com/sh3r4_hax
 [pgp]: /assets/misc/mt.pgp.txt "A2D1 316F A7BD 87F6 D0F7  DA73 42A6 A028 415F CE85"
-[gh]: https://github.com/sectorsect "My github account"
+[gh]: https://github.com/Sh3r4 "My github account"
 [npm]: https://www.npmjs.com/~timmsio "My NPM account"
 
 ## Infosec Experience
 
-- basic corporate incident response
+- vulnerability assessment
+- application security auditing
+- secure code reviews
+- network security auditing
+- dependency management
+- corporate incident response
 - log analysis and threat hunting
 - creating and leading training programmes
   - basic corporate security awareness programme
   - developer specific application security programme
 - ISO 27002/27001 compliance
-  - writing policy
-  - writing procedure
 - SIEM setup and ongoing management
 - IDS setup and ongoing management
-- threat surface analysis using OSINT
-- vulnerability assessment
-- application security auditing
+- threat surface analysis
 
 ## Developer Experience
 
+- Golang
+  - Dependency managment framework
+  - Graph database visualisation
 - C#
   - WPF Desktop Applications
   - Sharepoint applications
-- powershell scripting
-- bash scripting
 - typeScript / javaScript
   - web-based code editor
   - custom code completion engine
@@ -70,4 +74,4 @@ Keybase: [tiosect](https://keybase.io/tiosect)
   - psychology/neurology study data collection
 - SQL
   - complex data migrations
-  - data investigations on unclean datasets
+  - investigation and reconstruction of damaged datasets

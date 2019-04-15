@@ -13,7 +13,7 @@ Demo: [Demo](/utils/easyphrase)
 <br>
 NPM: [timmsio](https://www.npmjs.com/~timmsio)
 <br>
-Github: [sectorsect/easyphrase](https://github.com/sectorsect/easyphrase)
+Github: [Sh3r4/easyphrase](https://github.com/Sh3r4/easyphrase)
 
 easyphrase is a client-side JS utility for generating passphrases using the [EFF diceware passphrase method][eff].
 It can be integrated with any webpage via named divs.

@@ -9,7 +9,7 @@ permalink: /projects/manyheads/
 
 # manyheads
 
-Github: [sectorsect/manyheads](https://github.com/sectorsect/manyheads)
+Github: [Sh3r4/manyheads](https://github.com/Sh3r4/manyheads)
 <br>
 Blog: [manyheads introduction]({{ site.baseurl }}{% post_url 2018-12-01-first-post %})
 
