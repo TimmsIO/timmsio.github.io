@@ -11,6 +11,8 @@ permalink: /writeup
 
 These are writeups of vulnerable VMs and CTF challenges I have done.
 
+[Check me out at CTFTime.](https://ctftime.org/user/56499)
+
 ***
 
 {% for post in site.categories.writeup %}
