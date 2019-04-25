@@ -7,15 +7,13 @@ contactShow: true
 
 # Morgaine Timms
 
-I'm an infosec nerd, security engineer, penetration tester, CTFer, and former software engineer. And I'm working on my OSCP.
+I'm an infosec nerd, security engineer, penetration tester, CTFer, and former software engineer. Oh, and I'm working on my OSCP.
 
-Occasionally I write security-focused software, [which you can see here](/projects).
+I sometimes write [security-focused software](/projects),  [blog posts](/blog), and [CTF writeups for challenges I solved](/writeup).
 
-I also sometimes write blog posts, [which are here](/blog).
+Here are a few of the most recent:
 
-This is the most recent one:
-
-{% for post in site.posts limit:1 %}
+{% for post in site.posts limit:4 %}
 <p>
 <h5><a href="{{ post.url }}">{{ post.title }}</a></h5>
 <blockquote>{{ post.description }}</blockquote>
@@ -61,11 +59,11 @@ LinkedIN: [Morgaine](https://www.linkedin.com/in/morgaine-timms-879354144/)
 ## Developer Experience
 
 - Golang
-  - Dependency managment framework
+  - Custom dependency management tooling
   - Graph database visualisation
 - C#
   - WPF Desktop Applications
-  - Sharepoint applications
+  - SharePoint applications
 - typeScript / javaScript
   - web-based code editor
   - custom code completion engine

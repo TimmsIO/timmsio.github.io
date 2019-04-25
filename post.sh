@@ -33,7 +33,7 @@ layout=post
 comments=false
 
 # Post text editor
-editor=vim
+editor=code
 
 # Post directory
 folder=_posts/
@@ -81,52 +81,70 @@ function ask {
     done
 }
 
+function get () {
+  # Ask the question
+  prompt="text"
+  read -p "$1 [$prompt] " REPLY
+  echo $REPLY
+}
+
 ##### Variables #####
 
 # post title
 title="$1"
 
-# convert title to filename format
+# convert title to filepath format
 # echo part replaces spaces with '-'
 # awk converts it to lowercase
 # sed keeps only lowercase letters and '-'
 filetitle=$( echo ${1// /-} | awk '{print tolower($0)}'| sed 's/[^a-z\-]*//g')
 
 # name of file
-filename="$folder`date +%F`-$filetitle.md"
-echo "$filename"
+filename="`date +%F`-$filetitle"
+filepath="$folder$filename.md"
+echo "$filepath"
 
 
 ########## Adding to file ##########
 
 ## setup the frontmatter
-echo "---" >> "$filename"
-echo "layout: $layout" >> "$filename"
-echo "assetpath: TODO: " >> "$filename"
-echo "title: \"$title\"" >> "$filename"
-echo "date: `date +%F\ %H:%M:%S\ %z`" >> "$filename"
-echo "categories: [blog]" >> "$filename"
-echo "author: Morgaine Timms" >> "$filename"
-echo "license: CC-BY-4.0" >> "$filename"
-echo "thumbnail: " >> "$filename"
-echo "thumbnailAttr: " >> "$filename"
-echo "thumbnailAttrUrl: " >> "$filename"
-echo "thumbnailAlt: " >> "$filename"
-echo "published: false" >> "$filename"
-echo "toc: false" >> "$filename"
-echo "description: \"TODO:\"" >> "$filename"
-echo "excerpt_separator: <!--more-->" >> "$filename"
-echo "---" >> "$filename"
+echo "---" >> "$filepath"
+echo "layout: $layout" >> "$filepath"
+if ask "Has Assets?" ; then
+  echo "asset: \"assets\\posts\\$filepath\"" >> "$filepath"
+  mkdir assets/posts/$filename
+fi
+echo "title: \"$title\"" >> "$filepath"
+echo "date: `date +%F\ %H:%M:%S\ %z`" >> "$filepath"
+if ask "Is Blog?" ; then
+  echo "categories: [blog]" >> "$filepath"
+else
+  ctftype=$(get "CTF Category?")
+  echo "categories: [writeup, $ctftype]" >> "$filepath"
+fi
+echo "author: Morgaine Timms" >> "$filepath"
+echo "license: CC-BY-4.0" >> "$filepath"
+echo "thumbnail: " >> "$filepath"
+echo "thumbnailAttr: " >> "$filepath"
+echo "thumbnailAttrUrl: " >> "$filepath"
+echo "thumbnailAlt: " >> "$filepath"
+echo "published: false" >> "$filepath"
+echo "toc: false" >> "$filepath"
+echo "description: \"TODO:\"" >> "$filepath"
+echo "excerpt_separator: <!--more-->" >> "$filepath"
+echo "---" >> "$filepath"
 
 ## setup the body of the post
-echo >> "$filename"
-echo >> "$filename"
-echo "<!--more-->" >> "$filename"
-echo >> "$filename"
+echo >> "$filepath"
+echo >> "$filepath"
+echo "<!--more-->" >> "$filepath"
+echo >> "$filepath"
+
+
 
 # open in chosen editor
-if [ "$editor" == "vim" ]; then
-  vim + "$filename"
-else
-  $editor "$filename"
-fi
+# if [ "$editor" == "code" ]; then
+#   code "$filepath"
+# else
+#   $editor "$filepath"
+# fi
