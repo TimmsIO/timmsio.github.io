@@ -17,11 +17,11 @@
             {% if link.sublinks %}
             <li class="nav-item dropdown {{ class }}">
                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
-                    href="#" id="{{ link.title}}-Dropdown">
+                    href="#" id="{{ link.title }}-Dropdown">
                     {{ link.title }}
                 </a>
 
-                <div class="dropdown-menu" aria-labelledby="{{ link.title}}-Dropdown">
+                <div class="dropdown-menu" aria-labelledby="{{ link.title }}-Dropdown">
 
                     {% for sublink in link.sublinks %}
                     {% if page.url == sublink.url %}

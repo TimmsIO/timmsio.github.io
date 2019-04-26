@@ -3,6 +3,13 @@
   url: /blog
 - title: ctf writeups
   url: /writeup
+  sublinks:
+    - title: All
+      url: /writeup
+    - title: VulnVMs
+      url: /writeup/vm
+    - title: CTFs
+      url: /writeup/ctf
 - title: projects
   url: /projects
 - title: easyphrase

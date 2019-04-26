@@ -3,7 +3,7 @@ layout: post
 title: "PlaidCTF2019: Docker"
 date: 2019-04-25 10:40:59 +1000
 categories: [writeup, misc]
-tags: [ctf, plaid2019]
+tags: [ctf, 2019, plaid, misc]
 author: Morgaine Timms
 license: CC-BY-4.0
 thumbnail: 
@@ -12,7 +12,7 @@ thumbnailAttrUrl:
 thumbnailAlt: 
 published: true
 toc: false
-description: "PlaidCTF2019 - Docker"
+description: "Using some lesser-known docker commands"
 excerpt_separator: <!--more-->
 ---
 # PlaidCTF2019 - Docker

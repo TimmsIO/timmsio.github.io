@@ -1,13 +1,13 @@
 ---
 
-title: writeup
+title: CTFs
 layout: default
 date: 2018-11-30 19:32:55 +1100
-permalink: /writeup
+permalink: /writeup/ctf
 
 ---
 
-# Full Writeup Listing
+# Writeups from CTFs
 
 These are writeups of vulnerable VMs and CTF challenges I have done.
 
@@ -15,7 +15,7 @@ These are writeups of vulnerable VMs and CTF challenges I have done.
 
 ***
 
-{% for post in site.categories.writeup %}
+{% for post in site.tags.ctf %}
 <p>
 <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
 <blockquote>|{% for tag in post.tags %}

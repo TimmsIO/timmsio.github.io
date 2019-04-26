@@ -111,8 +111,11 @@ echo "$filepath"
 echo "---" >> "$filepath"
 echo "layout: $layout" >> "$filepath"
 if ask "Has Assets?" ; then
-  echo "asset: \"assets\\posts\\$filepath\"" >> "$filepath"
-  mkdir assets/posts/$filename
+  assetfolder=$(get "asset foler name?")
+  echo "asset: \"/assets/posts/$assetfolder/\"" >> "$filepath"
+  if [ ! -d assets/posts/$assetfolder ]; then
+    mkdir assets/posts/$assetfolder
+  fi
 fi
 echo "title: \"$title\"" >> "$filepath"
 echo "date: `date +%F\ %H:%M:%S\ %z`" >> "$filepath"
@@ -128,7 +131,7 @@ echo "thumbnail: " >> "$filepath"
 echo "thumbnailAttr: " >> "$filepath"
 echo "thumbnailAttrUrl: " >> "$filepath"
 echo "thumbnailAlt: " >> "$filepath"
-echo "published: false" >> "$filepath"
+echo "published: true" >> "$filepath"
 echo "toc: false" >> "$filepath"
 echo "description: \"TODO:\"" >> "$filepath"
 echo "excerpt_separator: <!--more-->" >> "$filepath"

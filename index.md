@@ -24,20 +24,12 @@ Here are a few of the most recent:
 
 Email: [PGP key][pgp]
 <br>
-Twitter: [sh3r4_hax][twitter]
-<br>
 Github: [Sh3r4][gh]
-<br>
-NPM: [timmsio][npm]
-<br>
-Keybase: [tiosect](https://keybase.io/tiosect)
 <br>
 LinkedIN: [Morgaine](https://www.linkedin.com/in/morgaine-timms-879354144/)
 
-[twitter]: https://twitter.com/sh3r4_hax
 [pgp]: /assets/misc/mt.pgp.txt "A2D1 316F A7BD 87F6 D0F7  DA73 42A6 A028 415F CE85"
 [gh]: https://github.com/Sh3r4 "My github account"
-[npm]: https://www.npmjs.com/~timmsio "My NPM account"
 
 ## Infosec Experience
 
