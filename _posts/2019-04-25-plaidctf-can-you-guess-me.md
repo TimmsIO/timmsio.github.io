@@ -4,6 +4,7 @@ title: "PlaidCTF2019: Can You Guess Me"
 date: 2019-04-25 10:38:14 +1000
 categories: [writeup, misc]
 tags: [ctf, 2019, plaid, misc]
+points: 100
 author: Morgaine Timms
 license: CC-BY-4.0
 thumbnail: 

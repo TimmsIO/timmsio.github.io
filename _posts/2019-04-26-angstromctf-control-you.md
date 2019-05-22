@@ -5,6 +5,7 @@ title: "AngstromCTF2019: Control You"
 date: 2019-04-26 16:09:08 +1000
 categories: [writeup, web]
 tags: [ctf, 2019, angstrom, web]
+points: 20
 author: Morgaine Timms
 license: CC-BY-4.0
 thumbnail: 

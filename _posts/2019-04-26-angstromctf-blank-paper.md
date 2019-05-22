@@ -5,6 +5,7 @@ title: "AngstromCTF2019: Blank Paper"
 date: 2019-04-26 15:47:57 +1000
 categories: [writeup, misc]
 tags: [ctf, 2019, angstrom, misc]
+points: 30
 author: Morgaine Timms
 license: CC-BY-4.0
 thumbnail: 

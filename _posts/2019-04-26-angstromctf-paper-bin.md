@@ -5,6 +5,7 @@ title: "AngstromCTF2019: Paper Bin"
 date: 2019-04-26 16:10:48 +1000
 categories: [writeup, misc]
 tags: [ctf, 2019, angstrom, misc]
+points: 40
 author: Morgaine Timms
 license: CC-BY-4.0
 thumbnail: 

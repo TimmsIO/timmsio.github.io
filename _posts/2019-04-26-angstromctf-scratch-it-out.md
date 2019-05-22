@@ -5,6 +5,7 @@ title: "AngstromCTF2019: Scratch It Out"
 date: 2019-04-26 16:11:28 +1000
 categories: [writeup, misc]
 tags: [ctf, 2019, angstrom, misc]
+points: 10
 author: Morgaine Timms
 license: CC-BY-4.0
 thumbnail: 

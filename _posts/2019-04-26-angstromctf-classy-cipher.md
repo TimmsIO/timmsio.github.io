@@ -5,6 +5,7 @@ title: "AngstromCTF2019: Classy Cipher"
 date: 2019-04-26 16:07:20 +1000
 categories: [writeup, crypto]
 tags: [ctf, 2019, angstrom, crypto]
+points: 20
 author: Morgaine Timms
 license: CC-BY-4.0
 thumbnail: 

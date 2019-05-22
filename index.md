@@ -13,7 +13,10 @@ I sometimes write [security-focused software](/projects),  [blog posts](/blog), 
 
 Here are a few of the most recent:
 
-{% for post in site.posts limit:4 %}
+{% assign recent=site.tags.ctf | limit: 10 %}
+{% assign interesting=recent | sort: "points" | reverse %}
+
+{% for post in interesting limit: 4 %}
 <p>
 <h5><a href="{{ post.url }}">{{ post.title }}</a></h5>
 <blockquote>{{ post.description }}</blockquote>

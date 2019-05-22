@@ -6,6 +6,7 @@ title: "AngstromCTF2019: One Bite
 date: 2019-04-26 16:10:14 +1000
 categories: [writeup, rev]
 tags: [ctf, 2019, angstrom, rev]
+points: 60
 author: Morgaine Timms
 license: CC-BY-4.0
 thumbnail: 

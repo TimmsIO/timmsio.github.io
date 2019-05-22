@@ -4,6 +4,7 @@ title: "W1R3S Walkthrough"
 date: 2018-12-02 10:49:43 +1100
 categories: [writeup, vm, blog]
 tags: [walkthrough, vulnhub]
+points: 10000
 asset: "/assets/walkthroughs/w1r3s/"
 author: Morgaine Timms
 license: CC-BY-4.0

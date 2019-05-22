@@ -3,6 +3,7 @@ layout: post
 title: "First Post!!"
 date: 2018-12-01 10:08:50 +1100
 categories: [blog]
+points: 10000
 author: Morgaine Timms
 license: CC-BY-4.0
 thumbnail: 
