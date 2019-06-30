@@ -25,7 +25,7 @@ Here are a few of the most recent:
 
 ## Contact
 
-Email: [PGP key][pgp]
+Email: 'morgaine @ [this-domain]'
 <br>
 Github: [Sh3r4][gh]
 <br>
