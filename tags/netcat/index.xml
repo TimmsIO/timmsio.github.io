@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>netcat on TimmsIO</title>
-    <link>/tags/netcat/</link>
+    <link>https://timms.io/tags/netcat/</link>
     <description>Recent content in netcat on TimmsIO</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <lastBuildDate>Thu, 25 Apr 2019 10:38:14 +1000</lastBuildDate>
     
-	<atom:link href="/tags/netcat/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://timms.io/tags/netcat/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>PlaidCTF2019: Can You Guess Me</title>
-      <link>/posts/2019-04-25-plaidctf-can-you-guess-me/</link>
+      <link>https://timms.io/posts/2019-04-25-plaidctf-can-you-guess-me/</link>
       <pubDate>Thu, 25 Apr 2019 10:38:14 +1000</pubDate>
       
-      <guid>/posts/2019-04-25-plaidctf-can-you-guess-me/</guid>
+      <guid>https://timms.io/posts/2019-04-25-plaidctf-can-you-guess-me/</guid>
       <description>PlaidCTF2019 - Can You Guess Me Misc - 100pts
 The Challenge The challenge text leads to the python code running the challenge.
  Misc (100 pts) Here&amp;rsquo;s the source to a guessing game: here

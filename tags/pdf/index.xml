@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>PDF on TimmsIO</title>
-    <link>/tags/pdf/</link>
+    <link>https://timms.io/tags/pdf/</link>
     <description>Recent content in PDF on TimmsIO</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <lastBuildDate>Fri, 26 Apr 2019 15:47:57 +1000</lastBuildDate>
     
-	<atom:link href="/tags/pdf/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://timms.io/tags/pdf/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>AngstromCTF2019: Blank Paper</title>
-      <link>/posts/2019-04-26-angstromctf-blank-paper/</link>
+      <link>https://timms.io/posts/2019-04-26-angstromctf-blank-paper/</link>
       <pubDate>Fri, 26 Apr 2019 15:47:57 +1000</pubDate>
       
-      <guid>/posts/2019-04-26-angstromctf-blank-paper/</guid>
+      <guid>https://timms.io/posts/2019-04-26-angstromctf-blank-paper/</guid>
       <description>AngstromCTF2019: Blank Paper The Challenge  Blank Paper Misc 30pts
 Someone scrubbed defund&amp;rsquo;s paper too hard, and a few of the bytes fell off.
 Author: defund

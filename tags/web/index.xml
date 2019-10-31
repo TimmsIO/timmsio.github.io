@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>web on TimmsIO</title>
-    <link>/tags/web/</link>
+    <link>https://timms.io/tags/web/</link>
     <description>Recent content in web on TimmsIO</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <lastBuildDate>Fri, 26 Apr 2019 16:09:43 +1000</lastBuildDate>
     
-	<atom:link href="/tags/web/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://timms.io/tags/web/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>AngstromCTF2019: No Sequels 1 &amp;&amp; 2</title>
-      <link>/posts/2019-04-26-angstromctf-no-sequels-/</link>
+      <link>https://timms.io/posts/2019-04-26-angstromctf-no-sequels-/</link>
       <pubDate>Fri, 26 Apr 2019 16:09:43 +1000</pubDate>
       
-      <guid>/posts/2019-04-26-angstromctf-no-sequels-/</guid>
+      <guid>https://timms.io/posts/2019-04-26-angstromctf-no-sequels-/</guid>
       <description>&lt;h1 id=&#34;angstromctf2019-no-sequels-1-2&#34;&gt;AngstromCTF2019: No Sequels 1 &amp;amp;&amp;amp; 2&lt;/h1&gt;
 
 &lt;h2 id=&#34;the-challenge&#34;&gt;The Challenge&lt;/h2&gt;
@@ -52,10 +52,10 @@ Web
     
     <item>
       <title>AngstromCTF2019: Control You</title>
-      <link>/posts/2019-04-26-angstromctf-control-you/</link>
+      <link>https://timms.io/posts/2019-04-26-angstromctf-control-you/</link>
       <pubDate>Fri, 26 Apr 2019 16:09:08 +1000</pubDate>
       
-      <guid>/posts/2019-04-26-angstromctf-control-you/</guid>
+      <guid>https://timms.io/posts/2019-04-26-angstromctf-control-you/</guid>
       <description>&lt;h1 id=&#34;angstromctf2019-control-you&#34;&gt;AngstromCTF2019: Control You&lt;/h1&gt;
 
 &lt;h2 id=&#34;the-challenge&#34;&gt;The Challenge&lt;/h2&gt;

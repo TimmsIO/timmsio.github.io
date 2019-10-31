@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on TimmsIO</title>
-    <link>/posts/</link>
+    <link>https://timms.io/posts/</link>
     <description>Recent content in Posts on TimmsIO</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <lastBuildDate>Thu, 31 Oct 2019 18:02:57 +1100</lastBuildDate>
     
-	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://timms.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Dependencies During Development</title>
-      <link>/posts/devdeps/</link>
+      <link>https://timms.io/posts/devdeps/</link>
       <pubDate>Thu, 31 Oct 2019 18:02:57 +1100</pubDate>
       
-      <guid>/posts/devdeps/</guid>
+      <guid>https://timms.io/posts/devdeps/</guid>
       <description>This was originally published in the Kult of the Cyber Witch Zine, issue 01: https://kultofthecyberw.itch.io/
 Dependencies During Development: Barely Managing Software relies on dependencies, but managing them is a hard problem. They quickly become numerous and interwoven, stacking up technical debt and hiding serious vulnerabilities under mountains of abstraction. But disaster can be avoided by taking a regimented approach to inclusion, identification, and remediation.
 So, why is dependency management so hard?</description>
@@ -24,10 +24,10 @@ So, why is dependency management so hard?</description>
     
     <item>
       <title>AngstromCTF2019: The Mueller Report</title>
-      <link>/posts/2019-04-26-angstromctf-the-mueller-report/</link>
+      <link>https://timms.io/posts/2019-04-26-angstromctf-the-mueller-report/</link>
       <pubDate>Fri, 26 Apr 2019 16:11:55 +1000</pubDate>
       
-      <guid>/posts/2019-04-26-angstromctf-the-mueller-report/</guid>
+      <guid>https://timms.io/posts/2019-04-26-angstromctf-the-mueller-report/</guid>
       <description>&lt;h1 id=&#34;angstromctf2019-the-mueller-report&#34;&gt;AngstromCTF2019: The Mueller Report&lt;/h1&gt;
 
 &lt;h2 id=&#34;the-challenge&#34;&gt;The Challenge&lt;/h2&gt;
@@ -45,10 +45,10 @@ Misc
     
     <item>
       <title>AngstromCTF2019: Scratch It Out</title>
-      <link>/posts/2019-04-26-angstromctf-scratch-it-out/</link>
+      <link>https://timms.io/posts/2019-04-26-angstromctf-scratch-it-out/</link>
       <pubDate>Fri, 26 Apr 2019 16:11:28 +1000</pubDate>
       
-      <guid>/posts/2019-04-26-angstromctf-scratch-it-out/</guid>
+      <guid>https://timms.io/posts/2019-04-26-angstromctf-scratch-it-out/</guid>
       <description>&lt;h1 id=&#34;angstromctf2019-scratch-it-out&#34;&gt;AngstromCTF2019: Scratch It Out&lt;/h1&gt;
 
 &lt;h2 id=&#34;the-challenge&#34;&gt;The Challenge&lt;/h2&gt;
@@ -68,10 +68,10 @@ Misc
     
     <item>
       <title>AngstromCTF2019: Paper Bin</title>
-      <link>/posts/2019-04-26-angstromctf-paper-bin/</link>
+      <link>https://timms.io/posts/2019-04-26-angstromctf-paper-bin/</link>
       <pubDate>Fri, 26 Apr 2019 16:10:48 +1000</pubDate>
       
-      <guid>/posts/2019-04-26-angstromctf-paper-bin/</guid>
+      <guid>https://timms.io/posts/2019-04-26-angstromctf-paper-bin/</guid>
       <description>&lt;h1 id=&#34;angstromctf2019-paper-bin&#34;&gt;AngstromCTF2019: Paper Bin&lt;/h1&gt;
 
 &lt;h2 id=&#34;the-challenge&#34;&gt;The Challenge&lt;/h2&gt;
@@ -91,10 +91,10 @@ Misc
     
     <item>
       <title>AngstromCTF2019: One Bite </title>
-      <link>/posts/2019-04-26-angstromctf-one-bite/</link>
+      <link>https://timms.io/posts/2019-04-26-angstromctf-one-bite/</link>
       <pubDate>Fri, 26 Apr 2019 16:10:14 +1000</pubDate>
       
-      <guid>/posts/2019-04-26-angstromctf-one-bite/</guid>
+      <guid>https://timms.io/posts/2019-04-26-angstromctf-one-bite/</guid>
       <description>&lt;h1 id=&#34;angstromctf2019-one-bite&#34;&gt;AngstromCTF2019: One Bite&lt;/h1&gt;
 
 &lt;h2 id=&#34;the-challenge&#34;&gt;The Challenge&lt;/h2&gt;
@@ -116,10 +116,10 @@ Rev
     
     <item>
       <title>AngstromCTF2019: No Sequels 1 &amp;&amp; 2</title>
-      <link>/posts/2019-04-26-angstromctf-no-sequels-/</link>
+      <link>https://timms.io/posts/2019-04-26-angstromctf-no-sequels-/</link>
       <pubDate>Fri, 26 Apr 2019 16:09:43 +1000</pubDate>
       
-      <guid>/posts/2019-04-26-angstromctf-no-sequels-/</guid>
+      <guid>https://timms.io/posts/2019-04-26-angstromctf-no-sequels-/</guid>
       <description>&lt;h1 id=&#34;angstromctf2019-no-sequels-1-2&#34;&gt;AngstromCTF2019: No Sequels 1 &amp;amp;&amp;amp; 2&lt;/h1&gt;
 
 &lt;h2 id=&#34;the-challenge&#34;&gt;The Challenge&lt;/h2&gt;
@@ -155,10 +155,10 @@ Web
     
     <item>
       <title>AngstromCTF2019: Control You</title>
-      <link>/posts/2019-04-26-angstromctf-control-you/</link>
+      <link>https://timms.io/posts/2019-04-26-angstromctf-control-you/</link>
       <pubDate>Fri, 26 Apr 2019 16:09:08 +1000</pubDate>
       
-      <guid>/posts/2019-04-26-angstromctf-control-you/</guid>
+      <guid>https://timms.io/posts/2019-04-26-angstromctf-control-you/</guid>
       <description>&lt;h1 id=&#34;angstromctf2019-control-you&#34;&gt;AngstromCTF2019: Control You&lt;/h1&gt;
 
 &lt;h2 id=&#34;the-challenge&#34;&gt;The Challenge&lt;/h2&gt;
@@ -178,10 +178,10 @@ Web
     
     <item>
       <title>AngstromCTF2019: Classy Cipher</title>
-      <link>/posts/2019-04-26-angstromctf-classy-cipher/</link>
+      <link>https://timms.io/posts/2019-04-26-angstromctf-classy-cipher/</link>
       <pubDate>Fri, 26 Apr 2019 16:07:20 +1000</pubDate>
       
-      <guid>/posts/2019-04-26-angstromctf-classy-cipher/</guid>
+      <guid>https://timms.io/posts/2019-04-26-angstromctf-classy-cipher/</guid>
       <description>&lt;h1 id=&#34;angstromctf2019-classy-cipher&#34;&gt;AngstromCTF2019: Classy Cipher&lt;/h1&gt;
 
 &lt;h2 id=&#34;the-challenge&#34;&gt;The Challenge&lt;/h2&gt;
@@ -201,10 +201,10 @@ Every CTF starts off with a Caesar cipher, but we&amp;rsquo;re more classy.&lt;/
     
     <item>
       <title>AngstromCTF2019: Blank Paper</title>
-      <link>/posts/2019-04-26-angstromctf-blank-paper/</link>
+      <link>https://timms.io/posts/2019-04-26-angstromctf-blank-paper/</link>
       <pubDate>Fri, 26 Apr 2019 15:47:57 +1000</pubDate>
       
-      <guid>/posts/2019-04-26-angstromctf-blank-paper/</guid>
+      <guid>https://timms.io/posts/2019-04-26-angstromctf-blank-paper/</guid>
       <description>AngstromCTF2019: Blank Paper The Challenge  Blank Paper Misc 30pts
 Someone scrubbed defund&amp;rsquo;s paper too hard, and a few of the bytes fell off.
 Author: defund
@@ -215,10 +215,10 @@ But the PDF viewers built into modern browsers are often a little more tolerant.
     
     <item>
       <title>PlaidCTF2019: Docker</title>
-      <link>/posts/2019-04-25-plaidctf-docker/</link>
+      <link>https://timms.io/posts/2019-04-25-plaidctf-docker/</link>
       <pubDate>Thu, 25 Apr 2019 10:40:59 +1000</pubDate>
       
-      <guid>/posts/2019-04-25-plaidctf-docker/</guid>
+      <guid>https://timms.io/posts/2019-04-25-plaidctf-docker/</guid>
       <description>&lt;h1 id=&#34;plaidctf2019-docker&#34;&gt;PlaidCTF2019 - Docker&lt;/h1&gt;
 
 &lt;p&gt;Misc - 10pts&lt;/p&gt;
@@ -232,10 +232,10 @@ docker pull whowouldeverguessthis/public
     
     <item>
       <title>PlaidCTF2019: Can You Guess Me</title>
-      <link>/posts/2019-04-25-plaidctf-can-you-guess-me/</link>
+      <link>https://timms.io/posts/2019-04-25-plaidctf-can-you-guess-me/</link>
       <pubDate>Thu, 25 Apr 2019 10:38:14 +1000</pubDate>
       
-      <guid>/posts/2019-04-25-plaidctf-can-you-guess-me/</guid>
+      <guid>https://timms.io/posts/2019-04-25-plaidctf-can-you-guess-me/</guid>
       <description>PlaidCTF2019 - Can You Guess Me Misc - 100pts
 The Challenge The challenge text leads to the python code running the challenge.
  Misc (100 pts) Here&amp;rsquo;s the source to a guessing game: here
@@ -246,20 +246,20 @@ nc canyouguessme.pwni.ng 12349
     
     <item>
       <title>C0de_G0lf</title>
-      <link>/posts/2019-04-15-cdeglf/</link>
+      <link>https://timms.io/posts/2019-04-15-cdeglf/</link>
       <pubDate>Mon, 15 Apr 2019 11:42:03 +1000</pubDate>
       
-      <guid>/posts/2019-04-15-cdeglf/</guid>
+      <guid>https://timms.io/posts/2019-04-15-cdeglf/</guid>
       <description>Takeaways from PlaidCTF 2019 Very few developers are intentionally coding exploitable bugs into production software. But working code doesn&amp;rsquo;t always mean code that does what the developer intended. A few minor misunderstandings of a language&amp;rsquo;s std lib and internals can be disastrous. As a former developer I&amp;rsquo;m fascinated by the impact of language choice on security.
 Exploits exist at the nexus of multiple vulnerabilities. Defensively, we use various techniques to reduce the likelihood of vulnerabilities becoming an exploit.</description>
     </item>
     
     <item>
       <title>W1R3S Walkthrough</title>
-      <link>/posts/2018-12-02-w1r3s-walkthrough/</link>
+      <link>https://timms.io/posts/2018-12-02-w1r3s-walkthrough/</link>
       <pubDate>Sun, 02 Dec 2018 10:49:43 +1100</pubDate>
       
-      <guid>/posts/2018-12-02-w1r3s-walkthrough/</guid>
+      <guid>https://timms.io/posts/2018-12-02-w1r3s-walkthrough/</guid>
       <description>Walkthrough and Writeup: W1R3S This is a walkthough for the &amp;ldquo;W1R3S: 1.01&amp;rdquo; vulnerable VM, created by SpecterWires. Needless to say, this page will be full of spoilers for the VM.
 The format will be loosely based on the OSCP report format, but modified a little to make it more walkthrough friendly.
 The scenario introducing W1R3S is this:
@@ -268,10 +268,10 @@ The scenario introducing W1R3S is this:
     
     <item>
       <title>First Post!!</title>
-      <link>/posts/2018-12-01-first-post/</link>
+      <link>https://timms.io/posts/2018-12-01-first-post/</link>
       <pubDate>Sat, 01 Dec 2018 10:08:50 +1100</pubDate>
       
-      <guid>/posts/2018-12-01-first-post/</guid>
+      <guid>https://timms.io/posts/2018-12-01-first-post/</guid>
       <description>First Post!! There really isn&amp;rsquo;t much here though.
 Maybe check out manyheads, an active aid to subdomain enumeration tools. I wrote the tool during an external attack surface audit in which I enumerated 7000 subdomains.
 Using the rough-version of manyheads I confirmed 3 subdomain takeovers, and a host [🙄] of other issues in a relatively short amount of time.

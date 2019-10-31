@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Angstrom2019 on TimmsIO</title>
-    <link>/series/angstrom2019/</link>
+    <link>https://timms.io/series/angstrom2019/</link>
     <description>Recent content in Angstrom2019 on TimmsIO</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <lastBuildDate>Fri, 26 Apr 2019 16:11:55 +1000</lastBuildDate>
     
-	<atom:link href="/series/angstrom2019/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://timms.io/series/angstrom2019/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>AngstromCTF2019: The Mueller Report</title>
-      <link>/posts/2019-04-26-angstromctf-the-mueller-report/</link>
+      <link>https://timms.io/posts/2019-04-26-angstromctf-the-mueller-report/</link>
       <pubDate>Fri, 26 Apr 2019 16:11:55 +1000</pubDate>
       
-      <guid>/posts/2019-04-26-angstromctf-the-mueller-report/</guid>
+      <guid>https://timms.io/posts/2019-04-26-angstromctf-the-mueller-report/</guid>
       <description>&lt;h1 id=&#34;angstromctf2019-the-mueller-report&#34;&gt;AngstromCTF2019: The Mueller Report&lt;/h1&gt;
 
 &lt;h2 id=&#34;the-challenge&#34;&gt;The Challenge&lt;/h2&gt;
@@ -34,10 +34,10 @@ Misc
     
     <item>
       <title>AngstromCTF2019: Scratch It Out</title>
-      <link>/posts/2019-04-26-angstromctf-scratch-it-out/</link>
+      <link>https://timms.io/posts/2019-04-26-angstromctf-scratch-it-out/</link>
       <pubDate>Fri, 26 Apr 2019 16:11:28 +1000</pubDate>
       
-      <guid>/posts/2019-04-26-angstromctf-scratch-it-out/</guid>
+      <guid>https://timms.io/posts/2019-04-26-angstromctf-scratch-it-out/</guid>
       <description>&lt;h1 id=&#34;angstromctf2019-scratch-it-out&#34;&gt;AngstromCTF2019: Scratch It Out&lt;/h1&gt;
 
 &lt;h2 id=&#34;the-challenge&#34;&gt;The Challenge&lt;/h2&gt;
@@ -57,10 +57,10 @@ Misc
     
     <item>
       <title>AngstromCTF2019: Paper Bin</title>
-      <link>/posts/2019-04-26-angstromctf-paper-bin/</link>
+      <link>https://timms.io/posts/2019-04-26-angstromctf-paper-bin/</link>
       <pubDate>Fri, 26 Apr 2019 16:10:48 +1000</pubDate>
       
-      <guid>/posts/2019-04-26-angstromctf-paper-bin/</guid>
+      <guid>https://timms.io/posts/2019-04-26-angstromctf-paper-bin/</guid>
       <description>&lt;h1 id=&#34;angstromctf2019-paper-bin&#34;&gt;AngstromCTF2019: Paper Bin&lt;/h1&gt;
 
 &lt;h2 id=&#34;the-challenge&#34;&gt;The Challenge&lt;/h2&gt;
@@ -80,10 +80,10 @@ Misc
     
     <item>
       <title>AngstromCTF2019: One Bite </title>
-      <link>/posts/2019-04-26-angstromctf-one-bite/</link>
+      <link>https://timms.io/posts/2019-04-26-angstromctf-one-bite/</link>
       <pubDate>Fri, 26 Apr 2019 16:10:14 +1000</pubDate>
       
-      <guid>/posts/2019-04-26-angstromctf-one-bite/</guid>
+      <guid>https://timms.io/posts/2019-04-26-angstromctf-one-bite/</guid>
       <description>&lt;h1 id=&#34;angstromctf2019-one-bite&#34;&gt;AngstromCTF2019: One Bite&lt;/h1&gt;
 
 &lt;h2 id=&#34;the-challenge&#34;&gt;The Challenge&lt;/h2&gt;
@@ -105,10 +105,10 @@ Rev
     
     <item>
       <title>AngstromCTF2019: No Sequels 1 &amp;&amp; 2</title>
-      <link>/posts/2019-04-26-angstromctf-no-sequels-/</link>
+      <link>https://timms.io/posts/2019-04-26-angstromctf-no-sequels-/</link>
       <pubDate>Fri, 26 Apr 2019 16:09:43 +1000</pubDate>
       
-      <guid>/posts/2019-04-26-angstromctf-no-sequels-/</guid>
+      <guid>https://timms.io/posts/2019-04-26-angstromctf-no-sequels-/</guid>
       <description>&lt;h1 id=&#34;angstromctf2019-no-sequels-1-2&#34;&gt;AngstromCTF2019: No Sequels 1 &amp;amp;&amp;amp; 2&lt;/h1&gt;
 
 &lt;h2 id=&#34;the-challenge&#34;&gt;The Challenge&lt;/h2&gt;
@@ -144,10 +144,10 @@ Web
     
     <item>
       <title>AngstromCTF2019: Control You</title>
-      <link>/posts/2019-04-26-angstromctf-control-you/</link>
+      <link>https://timms.io/posts/2019-04-26-angstromctf-control-you/</link>
       <pubDate>Fri, 26 Apr 2019 16:09:08 +1000</pubDate>
       
-      <guid>/posts/2019-04-26-angstromctf-control-you/</guid>
+      <guid>https://timms.io/posts/2019-04-26-angstromctf-control-you/</guid>
       <description>&lt;h1 id=&#34;angstromctf2019-control-you&#34;&gt;AngstromCTF2019: Control You&lt;/h1&gt;
 
 &lt;h2 id=&#34;the-challenge&#34;&gt;The Challenge&lt;/h2&gt;
@@ -167,10 +167,10 @@ Web
     
     <item>
       <title>AngstromCTF2019: Classy Cipher</title>
-      <link>/posts/2019-04-26-angstromctf-classy-cipher/</link>
+      <link>https://timms.io/posts/2019-04-26-angstromctf-classy-cipher/</link>
       <pubDate>Fri, 26 Apr 2019 16:07:20 +1000</pubDate>
       
-      <guid>/posts/2019-04-26-angstromctf-classy-cipher/</guid>
+      <guid>https://timms.io/posts/2019-04-26-angstromctf-classy-cipher/</guid>
       <description>&lt;h1 id=&#34;angstromctf2019-classy-cipher&#34;&gt;AngstromCTF2019: Classy Cipher&lt;/h1&gt;
 
 &lt;h2 id=&#34;the-challenge&#34;&gt;The Challenge&lt;/h2&gt;
@@ -190,10 +190,10 @@ Every CTF starts off with a Caesar cipher, but we&amp;rsquo;re more classy.&lt;/
     
     <item>
       <title>AngstromCTF2019: Blank Paper</title>
-      <link>/posts/2019-04-26-angstromctf-blank-paper/</link>
+      <link>https://timms.io/posts/2019-04-26-angstromctf-blank-paper/</link>
       <pubDate>Fri, 26 Apr 2019 15:47:57 +1000</pubDate>
       
-      <guid>/posts/2019-04-26-angstromctf-blank-paper/</guid>
+      <guid>https://timms.io/posts/2019-04-26-angstromctf-blank-paper/</guid>
       <description>AngstromCTF2019: Blank Paper The Challenge  Blank Paper Misc 30pts
 Someone scrubbed defund&amp;rsquo;s paper too hard, and a few of the bytes fell off.
 Author: defund

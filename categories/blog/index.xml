@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>blog on TimmsIO</title>
-    <link>/categories/blog/</link>
+    <link>https://timms.io/categories/blog/</link>
     <description>Recent content in blog on TimmsIO</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <lastBuildDate>Thu, 31 Oct 2019 18:02:57 +1100</lastBuildDate>
     
-	<atom:link href="/categories/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://timms.io/categories/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Dependencies During Development</title>
-      <link>/posts/devdeps/</link>
+      <link>https://timms.io/posts/devdeps/</link>
       <pubDate>Thu, 31 Oct 2019 18:02:57 +1100</pubDate>
       
-      <guid>/posts/devdeps/</guid>
+      <guid>https://timms.io/posts/devdeps/</guid>
       <description>This was originally published in the Kult of the Cyber Witch Zine, issue 01: https://kultofthecyberw.itch.io/
 Dependencies During Development: Barely Managing Software relies on dependencies, but managing them is a hard problem. They quickly become numerous and interwoven, stacking up technical debt and hiding serious vulnerabilities under mountains of abstraction. But disaster can be avoided by taking a regimented approach to inclusion, identification, and remediation.
 So, why is dependency management so hard?</description>
@@ -24,20 +24,20 @@ So, why is dependency management so hard?</description>
     
     <item>
       <title>C0de_G0lf</title>
-      <link>/posts/2019-04-15-cdeglf/</link>
+      <link>https://timms.io/posts/2019-04-15-cdeglf/</link>
       <pubDate>Mon, 15 Apr 2019 11:42:03 +1000</pubDate>
       
-      <guid>/posts/2019-04-15-cdeglf/</guid>
+      <guid>https://timms.io/posts/2019-04-15-cdeglf/</guid>
       <description>Takeaways from PlaidCTF 2019 Very few developers are intentionally coding exploitable bugs into production software. But working code doesn&amp;rsquo;t always mean code that does what the developer intended. A few minor misunderstandings of a language&amp;rsquo;s std lib and internals can be disastrous. As a former developer I&amp;rsquo;m fascinated by the impact of language choice on security.
 Exploits exist at the nexus of multiple vulnerabilities. Defensively, we use various techniques to reduce the likelihood of vulnerabilities becoming an exploit.</description>
     </item>
     
     <item>
       <title>W1R3S Walkthrough</title>
-      <link>/posts/2018-12-02-w1r3s-walkthrough/</link>
+      <link>https://timms.io/posts/2018-12-02-w1r3s-walkthrough/</link>
       <pubDate>Sun, 02 Dec 2018 10:49:43 +1100</pubDate>
       
-      <guid>/posts/2018-12-02-w1r3s-walkthrough/</guid>
+      <guid>https://timms.io/posts/2018-12-02-w1r3s-walkthrough/</guid>
       <description>Walkthrough and Writeup: W1R3S This is a walkthough for the &amp;ldquo;W1R3S: 1.01&amp;rdquo; vulnerable VM, created by SpecterWires. Needless to say, this page will be full of spoilers for the VM.
 The format will be loosely based on the OSCP report format, but modified a little to make it more walkthrough friendly.
 The scenario introducing W1R3S is this:
@@ -46,10 +46,10 @@ The scenario introducing W1R3S is this:
     
     <item>
       <title>First Post!!</title>
-      <link>/posts/2018-12-01-first-post/</link>
+      <link>https://timms.io/posts/2018-12-01-first-post/</link>
       <pubDate>Sat, 01 Dec 2018 10:08:50 +1100</pubDate>
       
-      <guid>/posts/2018-12-01-first-post/</guid>
+      <guid>https://timms.io/posts/2018-12-01-first-post/</guid>
       <description>First Post!! There really isn&amp;rsquo;t much here though.
 Maybe check out manyheads, an active aid to subdomain enumeration tools. I wrote the tool during an external attack surface audit in which I enumerated 7000 subdomains.
 Using the rough-version of manyheads I confirmed 3 subdomain takeovers, and a host [🙄] of other issues in a relatively short amount of time.

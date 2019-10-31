@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>rev on TimmsIO</title>
-    <link>/tags/rev/</link>
+    <link>https://timms.io/tags/rev/</link>
     <description>Recent content in rev on TimmsIO</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <lastBuildDate>Fri, 26 Apr 2019 16:10:14 +1000</lastBuildDate>
     
-	<atom:link href="/tags/rev/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://timms.io/tags/rev/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>AngstromCTF2019: One Bite </title>
-      <link>/posts/2019-04-26-angstromctf-one-bite/</link>
+      <link>https://timms.io/posts/2019-04-26-angstromctf-one-bite/</link>
       <pubDate>Fri, 26 Apr 2019 16:10:14 +1000</pubDate>
       
-      <guid>/posts/2019-04-26-angstromctf-one-bite/</guid>
+      <guid>https://timms.io/posts/2019-04-26-angstromctf-one-bite/</guid>
       <description>&lt;h1 id=&#34;angstromctf2019-one-bite&#34;&gt;AngstromCTF2019: One Bite&lt;/h1&gt;
 
 &lt;h2 id=&#34;the-challenge&#34;&gt;The Challenge&lt;/h2&gt;

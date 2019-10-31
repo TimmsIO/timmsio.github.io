@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Series on TimmsIO</title>
-    <link>/series/</link>
+    <link>https://timms.io/series/</link>
     <description>Recent content in Series on TimmsIO</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <lastBuildDate>Thu, 31 Oct 2019 18:02:57 +1100</lastBuildDate>
     
-	<atom:link href="/series/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://timms.io/series/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>KotCW</title>
-      <link>/series/kotcw/</link>
+      <link>https://timms.io/series/kotcw/</link>
       <pubDate>Thu, 31 Oct 2019 18:02:57 +1100</pubDate>
       
-      <guid>/series/kotcw/</guid>
+      <guid>https://timms.io/series/kotcw/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Angstrom2019</title>
-      <link>/series/angstrom2019/</link>
+      <link>https://timms.io/series/angstrom2019/</link>
       <pubDate>Fri, 26 Apr 2019 16:11:55 +1000</pubDate>
       
-      <guid>/series/angstrom2019/</guid>
+      <guid>https://timms.io/series/angstrom2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Plaid2019</title>
-      <link>/series/plaid2019/</link>
+      <link>https://timms.io/series/plaid2019/</link>
       <pubDate>Thu, 25 Apr 2019 10:40:59 +1000</pubDate>
       
-      <guid>/series/plaid2019/</guid>
+      <guid>https://timms.io/series/plaid2019/</guid>
       <description></description>
     </item>
     
