@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"><title>CVElinker</title>
+    <meta property="og:title" content="CVElinker" />
+    <meta name="twitter:title" content="CVElinker" /><meta name="description" content="CVELINKER Github: Sh3r4/cvelinker Demo Output: sample report
+This is a golang utility to ingest CVE identifiers and generate reports and links. It&rsquo;s purpose is to make sifting through advisories which reference CVEs easier.
+It&rsquo;s default behaviour is to provide a few useful links to stdout.
+[-] ========================= CVE-2018-3640 ========================== [NVD__] https://nvd.nist.gov/vuln/detail/CVE-2018-3640 [MITRE] https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-3640 [LVD__] https://lwn.net/Search/DoSearch?words=CVE-2018-3640 [MTASP] https://www.rapid7.com/db/search?q=CVE-2018-3640 [DEB__] https://security-tracker.debian.org/tracker/CVE-2018-3640 [RHEL_] https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2018-3640 [GOOGL] https://www.google.com/search?q=CVE-2018-3640 [GITHB] https://github.com/search?q=%22CVE-2018-3640%22&amp;type=Issues  It is also capable of more complete reports using the circl.">
+    <meta property="og:description" content="CVELINKER Github: Sh3r4/cvelinker Demo Output: sample report
+This is a golang utility to ingest CVE identifiers and generate reports and links. It&rsquo;s purpose is to make sifting through advisories which reference CVEs easier.
+It&rsquo;s default behaviour is to provide a few useful links to stdout.
+[-] ========================= CVE-2018-3640 ========================== [NVD__] https://nvd.nist.gov/vuln/detail/CVE-2018-3640 [MITRE] https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-3640 [LVD__] https://lwn.net/Search/DoSearch?words=CVE-2018-3640 [MTASP] https://www.rapid7.com/db/search?q=CVE-2018-3640 [DEB__] https://security-tracker.debian.org/tracker/CVE-2018-3640 [RHEL_] https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2018-3640 [GOOGL] https://www.google.com/search?q=CVE-2018-3640 [GITHB] https://github.com/search?q=%22CVE-2018-3640%22&amp;type=Issues  It is also capable of more complete reports using the circl.">
+    <meta name="twitter:description" content="CVELINKER Github: Sh3r4/cvelinker Demo Output: sample report
+This is a golang utility to ingest CVE identifiers and generate reports and links. It&rsquo;s purpose is to make sifting through advisories …"><meta name="author" content="Morgaine Timms"/>
+    <link href='/favicon.ico' rel='icon' type='image/x-icon'/>
+
+    <meta property="og:url" content="/projects/cvelinker/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="TimmsIO" />
+    <link rel="canonical" href="/projects/cvelinker/" />
+
+    
+    <link rel="stylesheet" 
+    href="/style.main.min.e7f371a858bb69f9a56c8256391f85bc992f05f4db9e9c4cd9773ae8465c7504.css" 
+    integrity="sha256-5/NxqFi7afmlbIJWOR&#43;FvJkvBfTbnpxM2Xc66EZcdQQ=" 
+    media="screen">
+</head> 
+
+
+<body><nav id="primary-nav" class="navbar is-black" role="navigation" aria-label="main navigation">
+    <div class="container">
+        <div class="navbar-brand">
+            <a class="navbar-item" href=""><img src="/logo.svg" alt=" TimmsIO" /></a>
+            <div role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+                data-target="navbarMenu">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </div>
+        </div>
+        <div class="navbar-menu" id="navbarMenu">
+            <div class="navbar-start"></div>
+            <div class="navbar-end"><a class="navbar-item" title="About" href="/#contact">About</a><div class="navbar-item has-dropdown">
+                    <a class="navbar-link" title="Posts" >Posts</a>
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item" title="Blog"
+                            href="/categories/blog/">Blog</a>
+                        
+                        <a class="navbar-item" title="Writeups"
+                            href="/categories/writeups/">Writeups</a>
+                        
+                        <a class="navbar-item" title="CTFs"
+                            href="/categories/ctfs">CTFs</a>
+                        <hr class="navbar-divider">
+                        <a class="navbar-item" title="All"
+                            href="/posts">All</a>
+                        </div>
+                </div><a class="navbar-item" title="Projects" href="/projects">Projects</a></div>
+        </div>
+    </div>
+</nav><div class="page-blocks"></div>
+    
+    <div class="columns is-gapless is-desktop">
+            
+        <div class="column">
+            
+
+<section class='section container content'>
+    <div class="tio-page columns is-centered">
+        <div class="column is-four-fifths-tablet is-three-quarters-widescreen has-background-dark has-text-light">
+            
+            <h1 id="cvelinker">CVELINKER</h1>
+
+<p>Github: <a href="https://github.com/Sh3r4/cvelinker">Sh3r4/cvelinker</a>
+<br>
+Demo Output: <a href="/projects/cvelinker/samplereport">sample report</a></p>
+
+<p>This is a golang utility to ingest CVE identifiers and generate reports and links.
+It&rsquo;s purpose is to make sifting through advisories which reference CVEs easier.</p>
+
+<p>It&rsquo;s default behaviour is to provide a few useful links to stdout.</p>
+
+<pre><code>[-] ========================= CVE-2018-3640 ==========================
+
+[NVD__] https://nvd.nist.gov/vuln/detail/CVE-2018-3640
+[MITRE] https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-3640
+[LVD__] https://lwn.net/Search/DoSearch?words=CVE-2018-3640
+[MTASP] https://www.rapid7.com/db/search?q=CVE-2018-3640
+[DEB__] https://security-tracker.debian.org/tracker/CVE-2018-3640
+[RHEL_] https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2018-3640
+[GOOGL] https://www.google.com/search?q=CVE-2018-3640
+[GITHB] https://github.com/search?q=%22CVE-2018-3640%22&amp;type=Issues
+</code></pre>
+
+<p>It is also capable of more complete reports using the <a href="https://www.circl.lu/services/cve-search/">circl.lu  API</a>.</p>
+
+<p>Here is an example of a report generated for CVE-2018-3640 and CVE-2018-3639:
+<a href="/projects/cvelinker/samplereport">sample report</a></p>
+
+        </div>
+    </div>
+</section>
+
+
+        </div>
+    </div>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+
+<noscript>
+    <style>.navbar-burger-toggle+.navbar-burger{margin-top:-3.5em}.navbar-burger-toggle:checked+.navbar-burger span:nth-child(1){transform:translateY(5px) rotate(45deg)}.navbar-burger-toggle:checked+.navbar-burger span:nth-child(2){opacity:0}.navbar-burger-toggle:checked+.navbar-burger span:nth-child(3){transform:translateY(-5px) rotate(-45deg)}.navbar-burger-toggle:checked~.navbar-menu{display:block}
+    </style>
+</noscript>
+<script>
+        'use strict';document.addEventListener('DOMContentLoaded',function(){var $dropdowns=getAll('.navbar-item.has-dropdown:not(.is-hoverable)');if($dropdowns.length>0){$dropdowns.forEach(function($el){$el.addEventListener('click',function(event){event.stopPropagation();$el.classList.toggle('is-active');});});document.addEventListener('click',function(event){closeDropdowns();});}
+function closeDropdowns(){$dropdowns.forEach(function($el){$el.classList.remove('is-active');});}
+document.addEventListener('keydown',function(event){var e=event||window.event;if(e.keyCode===27){closeDropdowns();}});var $burgers=getAll('.burger');if($burgers.length>0){$burgers.forEach(function($el){$el.addEventListener('click',function(){var target=$el.dataset.target;var $target=document.getElementById(target);$el.classList.toggle('is-active');$target.classList.toggle('is-active');});});}
+function getAll(selector){return Array.prototype.slice.call(document.querySelectorAll(selector),0);}});
+</script>
+</body>
+
+</html>

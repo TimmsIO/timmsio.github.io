@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"><title>AngstromCTF2019: Classy Cipher</title>
+    <meta property="og:title" content="AngstromCTF2019: Classy Cipher" />
+    <meta name="twitter:title" content="AngstromCTF2019: Classy Cipher" /><meta name="description" content="Deciphering an ASCII rotation cipher">
+    <meta property="og:description" content="Deciphering an ASCII rotation cipher">
+    <meta name="twitter:description" content="Deciphering an ASCII rotation cipher"><meta name="author" content="Morgaine Timms"/>
+    <link href='/favicon.ico' rel='icon' type='image/x-icon'/>
+
+    <meta property="og:url" content="/posts/2019-04-26-angstromctf-classy-cipher/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="TimmsIO" />
+    <link rel="canonical" href="/posts/2019-04-26-angstromctf-classy-cipher/" />
+
+    
+    <link rel="stylesheet" 
+    href="/style.main.min.e7f371a858bb69f9a56c8256391f85bc992f05f4db9e9c4cd9773ae8465c7504.css" 
+    integrity="sha256-5/NxqFi7afmlbIJWOR&#43;FvJkvBfTbnpxM2Xc66EZcdQQ=" 
+    media="screen">
+</head> 
+
+
+<body><nav id="primary-nav" class="navbar is-black" role="navigation" aria-label="main navigation">
+    <div class="container">
+        <div class="navbar-brand">
+            <a class="navbar-item" href=""><img src="/logo.svg" alt=" TimmsIO" /></a>
+            <div role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+                data-target="navbarMenu">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </div>
+        </div>
+        <div class="navbar-menu" id="navbarMenu">
+            <div class="navbar-start"></div>
+            <div class="navbar-end"><a class="navbar-item" title="About" href="/#contact">About</a><div class="navbar-item has-dropdown">
+                    <a class="navbar-link" title="Posts" >Posts</a>
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item" title="Blog"
+                            href="/categories/blog/">Blog</a>
+                        
+                        <a class="navbar-item" title="Writeups"
+                            href="/categories/writeups/">Writeups</a>
+                        
+                        <a class="navbar-item" title="CTFs"
+                            href="/categories/ctfs">CTFs</a>
+                        <hr class="navbar-divider">
+                        <a class="navbar-item" title="All"
+                            href="/posts">All</a>
+                        </div>
+                </div><a class="navbar-item" title="Projects" href="/projects">Projects</a></div>
+        </div>
+    </div>
+</nav><div class="page-blocks"></div>
+    
+    
+    <section class="hero is-medium"style="background-image: url(/image/Angstrom_Unit.jpg)">
+    <div class="container hero-body has-text-centered" style="text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;"><h1 class="title is-1 has-text-white">AngstromCTF2019: Classy Cipher</h1>
+    </div>
+</section>
+
+    
+    <div class="columns is-gapless is-desktop">
+            
+        <div class="column">
+            
+
+<section class='section container content'>
+    <div class="tio-page columns is-centered">
+        <div class="column is-four-fifths-tablet is-three-quarters-widescreen has-background-dark has-text-light">
+            
+            <h1 id="angstromctf2019-classy-cipher">AngstromCTF2019: Classy Cipher</h1>
+
+<h2 id="the-challenge">The Challenge</h2>
+
+<blockquote>
+<p>Classy Cipher
+Crypto
+20
+&gt;
+Every CTF starts off with a Caesar cipher, but we&rsquo;re more classy.</p>
+
+<p>Author: defund</p>
+
+<p>link: <a href="https://files.actf.co/2e1940179916e0501fbba0de705a668e42646c916276d7a51ad6a2d2cc381720/classy_cipher.py">https://files.actf.co/2e1940179916e0501fbba0de705a668e42646c916276d7a51ad6a2d2cc381720/classy_cipher.py</a></p>
+</blockquote>
+
+<p>The linked file is a simple python script.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">from</span> secret <span style="color:#f92672">import</span> flag, shift
+
+<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">encrypt</span>(d, s):
+    e <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;&#39;</span>
+    <span style="color:#66d9ef">for</span> c <span style="color:#f92672">in</span> d:
+        e <span style="color:#f92672">+=</span> chr((ord(c)<span style="color:#f92672">+</span>s) <span style="color:#f92672">%</span> <span style="color:#ae81ff">0xff</span>)
+    <span style="color:#66d9ef">return</span> e
+
+<span style="color:#66d9ef">assert</span> encrypt(flag, shift) <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;:&lt;M?TLH8&lt;A:KFBG@V&#39;</span></code></pre></div>
+<h2 id="the-solution">The Solution</h2>
+
+<p>The python script rotates characters by an unknown amount. The character rotation must be less than 255 (the ASCII range) as enforced by <code>​% 0xff</code>​ in the <code>​encrypt()</code>​ function.</p>
+
+<p>The rotation can be calculated because the first 4 values of the flag are known:</p>
+
+<p><code>​:&lt;M?</code>​ <em>must</em> be <code>​actf</code>​</p>
+
+<p>The easiest way to calculate the shift is using the <code>encrypt()</code> algorithm to compare the known characters.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">shift_test</span>(have, want):
+    <span style="color:#66d9ef">for</span> x <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">255</span>):
+        tested <span style="color:#f92672">=</span> encrypt(want, x)
+        <span style="color:#66d9ef">if</span> tested <span style="color:#f92672">==</span> have:
+            <span style="color:#66d9ef">return</span> x</code></pre></div>
+<p>After calculating the rotation, a lookup table can be created for all ascii values and used to decipher the ciphertext</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">generate_table</span>(shift):
+    table <span style="color:#f92672">=</span> {}
+    <span style="color:#75715e"># generate all ascii chars</span>
+    <span style="color:#66d9ef">for</span> x <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">255</span>):
+        <span style="color:#75715e"># get the key and its cipher equivalent</span>
+        key <span style="color:#f92672">=</span> chr(x)
+        cipheredKey <span style="color:#f92672">=</span> encrypt(key,shift)
+        <span style="color:#75715e"># add to table</span>
+        table[cipheredKey] <span style="color:#f92672">=</span> key
+    <span style="color:#66d9ef">return</span> table
+
+<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">decipher</span>(ciphertext, shift):
+    lookup <span style="color:#f92672">=</span> generate_table(shift)
+    out <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;&#39;</span>
+    <span style="color:#66d9ef">for</span> char <span style="color:#f92672">in</span> ciphertext:
+        out <span style="color:#f92672">+=</span> lookup[char]
+    <span style="color:#66d9ef">return</span> out</code></pre></div>
+<p>Combining the above scripts reveals the flag:</p>
+
+<ul>
+<li>The rotation was 216</li>
+<li>The flag is actf{so_charming}</li>
+</ul>
+
+<p><p>Here is the script I used, commented for clarity</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e">#from secret import flag, shift</span></p>
+
+<p><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">encrypt</span>(d, s):
+    e <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;&#39;</span>
+    <span style="color:#66d9ef">for</span> c <span style="color:#f92672">in</span> d:
+        e <span style="color:#f92672">+=</span> chr((ord&copy;<span style="color:#f92672">+</span>s) <span style="color:#f92672">%</span> <span style="color:#ae81ff">0xff</span>)
+    <span style="color:#66d9ef">return</span> e</p>
+
+<p><span style="color:#75715e">#assert encrypt(flag, shift) == &#39;:&lt;M?TLH8&lt;A:KFBG@V&#39;</span></p>
+
+<p><span style="color:#75715e"># test for the correct shift</span>
+<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">shift_test</span>(have, want):
+    <span style="color:#66d9ef">for</span> x <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">255</span>):
+        tested <span style="color:#f92672">=</span> encrypt(want, x)
+        <span style="color:#66d9ef">if</span> tested <span style="color:#f92672">==</span> have:
+            <span style="color:#66d9ef">return</span> x</p>
+
+<p><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">generate_table</span>(shift):
+    table <span style="color:#f92672">=</span> {}
+    <span style="color:#75715e"># generate all ascii chars</span>
+    <span style="color:#66d9ef">for</span> x <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">255</span>):
+        <span style="color:#75715e"># get the key and its cipher equivalent</span>
+        key <span style="color:#f92672">=</span> chr(x)
+        cipheredKey <span style="color:#f92672">=</span> encrypt(key,shift)
+        <span style="color:#75715e"># add to table</span>
+        table[cipheredKey] <span style="color:#f92672">=</span> key
+    <span style="color:#66d9ef">return</span> table</p>
+
+<p><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">decipher</span>(ciphertext, shift):
+    lookup <span style="color:#f92672">=</span> generate_table(shift)
+    out <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;&#39;</span>
+    <span style="color:#66d9ef">for</span> char <span style="color:#f92672">in</span> ciphertext:
+        out <span style="color:#f92672">+=</span> lookup[char]
+    <span style="color:#66d9ef">return</span> out</p>
+
+<p><span style="color:#75715e"># algorithm starts here</span></p>
+
+<p><span style="color:#75715e"># we know the flag</span>
+ciphertext <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;:&lt;M?TLH8&lt;A:KFBG@V&#39;</span>
+<span style="color:#75715e"># test for the shift used to get the known part of the flag</span>
+shift <span style="color:#f92672">=</span> shift_test(have<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;:&lt;M?&#39;</span>, want<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;actf&#39;</span>)
+<span style="color:#66d9ef">print</span>(f<span style="color:#e6db74">&#39;Shift is: {shift}&#39;</span>)</p>
+
+<p><span style="color:#75715e"># generate a lookup table and print the flag</span>
+flag <span style="color:#f92672">=</span> decipher(ciphertext, shift)
+<span style="color:#66d9ef">print</span>(f<span style="color:#e6db74">&#34;The flag says: {flag}&#34;</span>)</code></pre></div></p>
+
+        </div>
+    </div>
+</section>
+
+
+        </div>
+    </div>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+
+<noscript>
+    <style>.navbar-burger-toggle+.navbar-burger{margin-top:-3.5em}.navbar-burger-toggle:checked+.navbar-burger span:nth-child(1){transform:translateY(5px) rotate(45deg)}.navbar-burger-toggle:checked+.navbar-burger span:nth-child(2){opacity:0}.navbar-burger-toggle:checked+.navbar-burger span:nth-child(3){transform:translateY(-5px) rotate(-45deg)}.navbar-burger-toggle:checked~.navbar-menu{display:block}
+    </style>
+</noscript>
+<script>
+        'use strict';document.addEventListener('DOMContentLoaded',function(){var $dropdowns=getAll('.navbar-item.has-dropdown:not(.is-hoverable)');if($dropdowns.length>0){$dropdowns.forEach(function($el){$el.addEventListener('click',function(event){event.stopPropagation();$el.classList.toggle('is-active');});});document.addEventListener('click',function(event){closeDropdowns();});}
+function closeDropdowns(){$dropdowns.forEach(function($el){$el.classList.remove('is-active');});}
+document.addEventListener('keydown',function(event){var e=event||window.event;if(e.keyCode===27){closeDropdowns();}});var $burgers=getAll('.burger');if($burgers.length>0){$burgers.forEach(function($el){$el.addEventListener('click',function(){var target=$el.dataset.target;var $target=document.getElementById(target);$el.classList.toggle('is-active');$target.classList.toggle('is-active');});});}
+function getAll(selector){return Array.prototype.slice.call(document.querySelectorAll(selector),0);}});
+</script>
+</body>
+
+</html>

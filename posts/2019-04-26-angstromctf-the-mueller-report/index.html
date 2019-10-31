@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"><title>AngstromCTF2019: The Mueller Report</title>
+    <meta property="og:title" content="AngstromCTF2019: The Mueller Report" />
+    <meta name="twitter:title" content="AngstromCTF2019: The Mueller Report" /><meta name="description" content="Using commandline tools to extract data from PDFs">
+    <meta property="og:description" content="Using commandline tools to extract data from PDFs">
+    <meta name="twitter:description" content="Using commandline tools to extract data from PDFs"><meta name="author" content="Morgaine Timms"/>
+    <link href='/favicon.ico' rel='icon' type='image/x-icon'/>
+
+    <meta property="og:url" content="/posts/2019-04-26-angstromctf-the-mueller-report/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="TimmsIO" />
+    <link rel="canonical" href="/posts/2019-04-26-angstromctf-the-mueller-report/" />
+
+    
+    <link rel="stylesheet" 
+    href="/style.main.min.e7f371a858bb69f9a56c8256391f85bc992f05f4db9e9c4cd9773ae8465c7504.css" 
+    integrity="sha256-5/NxqFi7afmlbIJWOR&#43;FvJkvBfTbnpxM2Xc66EZcdQQ=" 
+    media="screen">
+</head> 
+
+
+<body><nav id="primary-nav" class="navbar is-black" role="navigation" aria-label="main navigation">
+    <div class="container">
+        <div class="navbar-brand">
+            <a class="navbar-item" href=""><img src="/logo.svg" alt=" TimmsIO" /></a>
+            <div role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+                data-target="navbarMenu">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </div>
+        </div>
+        <div class="navbar-menu" id="navbarMenu">
+            <div class="navbar-start"></div>
+            <div class="navbar-end"><a class="navbar-item" title="About" href="/#contact">About</a><div class="navbar-item has-dropdown">
+                    <a class="navbar-link" title="Posts" >Posts</a>
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item" title="Blog"
+                            href="/categories/blog/">Blog</a>
+                        
+                        <a class="navbar-item" title="Writeups"
+                            href="/categories/writeups/">Writeups</a>
+                        
+                        <a class="navbar-item" title="CTFs"
+                            href="/categories/ctfs">CTFs</a>
+                        <hr class="navbar-divider">
+                        <a class="navbar-item" title="All"
+                            href="/posts">All</a>
+                        </div>
+                </div><a class="navbar-item" title="Projects" href="/projects">Projects</a></div>
+        </div>
+    </div>
+</nav><div class="page-blocks"></div>
+    
+    
+    <section class="hero is-medium"style="background-image: url(/image/Angstrom_Unit.jpg)">
+    <div class="container hero-body has-text-centered" style="text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;"><h1 class="title is-1 has-text-white">AngstromCTF2019: The Mueller Report</h1>
+    </div>
+</section>
+
+    
+    <div class="columns is-gapless is-desktop">
+            
+        <div class="column">
+            
+
+<section class='section container content'>
+    <div class="tio-page columns is-centered">
+        <div class="column is-four-fifths-tablet is-three-quarters-widescreen has-background-dark has-text-light">
+            
+            <h1 id="angstromctf2019-the-mueller-report">AngstromCTF2019: The Mueller Report</h1>
+
+<h2 id="the-challenge">The Challenge</h2>
+
+<blockquote>
+<p>The Mueller Report
+Misc
+20pts</p>
+
+<p>The redacted version of the Mueller report was finally released this week! There&rsquo;s some pretty funny stuff in there, but maybe the report has more beneath the surface.</p>
+
+<p>link:<a href="https://mega.nz/#!SsMDmAhT!MjplSc7lCqUQFrZC5EL_t7f2fdoDDNwrZhfTgTAcG7s">https://mega.nz/#!SsMDmAhT!MjplSc7lCqUQFrZC5EL_t7f2fdoDDNwrZhfTgTAcG7s</a></p>
+</blockquote>
+
+<h2 id="the-solution">The Solution</h2>
+
+<p>Running <a href="https://linux.die.net/man/1/strings">strings</a> will reveal the flag:</p>
+
+<pre><code># strings full-mueller-report.pdf | grep &quot;actf&quot;
+actf{no0o0o0_col1l1l1luuuusiioooon}
+</code></pre>
+
+<p><img src="/assets/posts/angstromctf2019/9E438117688F31D47DDB762F0F8EF625.png" alt="" /></p>
+
+        </div>
+    </div>
+</section>
+
+
+        </div>
+    </div>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+
+<noscript>
+    <style>.navbar-burger-toggle+.navbar-burger{margin-top:-3.5em}.navbar-burger-toggle:checked+.navbar-burger span:nth-child(1){transform:translateY(5px) rotate(45deg)}.navbar-burger-toggle:checked+.navbar-burger span:nth-child(2){opacity:0}.navbar-burger-toggle:checked+.navbar-burger span:nth-child(3){transform:translateY(-5px) rotate(-45deg)}.navbar-burger-toggle:checked~.navbar-menu{display:block}
+    </style>
+</noscript>
+<script>
+        'use strict';document.addEventListener('DOMContentLoaded',function(){var $dropdowns=getAll('.navbar-item.has-dropdown:not(.is-hoverable)');if($dropdowns.length>0){$dropdowns.forEach(function($el){$el.addEventListener('click',function(event){event.stopPropagation();$el.classList.toggle('is-active');});});document.addEventListener('click',function(event){closeDropdowns();});}
+function closeDropdowns(){$dropdowns.forEach(function($el){$el.classList.remove('is-active');});}
+document.addEventListener('keydown',function(event){var e=event||window.event;if(e.keyCode===27){closeDropdowns();}});var $burgers=getAll('.burger');if($burgers.length>0){$burgers.forEach(function($el){$el.addEventListener('click',function(){var target=$el.dataset.target;var $target=document.getElementById(target);$el.classList.toggle('is-active');$target.classList.toggle('is-active');});});}
+function getAll(selector){return Array.prototype.slice.call(document.querySelectorAll(selector),0);}});
+</script>
+</body>
+
+</html>

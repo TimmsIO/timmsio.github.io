@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>misc on TimmsIO</title>
+    <link>/tags/misc/</link>
+    <description>Recent content in misc on TimmsIO</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-au</language>
+    <lastBuildDate>Fri, 26 Apr 2019 16:11:55 +1000</lastBuildDate>
+    
+	<atom:link href="/tags/misc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>AngstromCTF2019: The Mueller Report</title>
+      <link>/posts/2019-04-26-angstromctf-the-mueller-report/</link>
+      <pubDate>Fri, 26 Apr 2019 16:11:55 +1000</pubDate>
+      
+      <guid>/posts/2019-04-26-angstromctf-the-mueller-report/</guid>
+      <description>&lt;h1 id=&#34;angstromctf2019-the-mueller-report&#34;&gt;AngstromCTF2019: The Mueller Report&lt;/h1&gt;
+
+&lt;h2 id=&#34;the-challenge&#34;&gt;The Challenge&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The Mueller Report
+Misc
+20pts&lt;/p&gt;
+
+&lt;p&gt;The redacted version of the Mueller report was finally released this week! There&amp;rsquo;s some pretty funny stuff in there, but maybe the report has more beneath the surface.&lt;/p&gt;
+
+&lt;p&gt;link:&lt;a href=&#34;https://mega.nz/#!SsMDmAhT!MjplSc7lCqUQFrZC5EL_t7f2fdoDDNwrZhfTgTAcG7s&#34;&gt;https://mega.nz/#!SsMDmAhT!MjplSc7lCqUQFrZC5EL_t7f2fdoDDNwrZhfTgTAcG7s&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>AngstromCTF2019: Scratch It Out</title>
+      <link>/posts/2019-04-26-angstromctf-scratch-it-out/</link>
+      <pubDate>Fri, 26 Apr 2019 16:11:28 +1000</pubDate>
+      
+      <guid>/posts/2019-04-26-angstromctf-scratch-it-out/</guid>
+      <description>&lt;h1 id=&#34;angstromctf2019-scratch-it-out&#34;&gt;AngstromCTF2019: Scratch It Out&lt;/h1&gt;
+
+&lt;h2 id=&#34;the-challenge&#34;&gt;The Challenge&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Scratch It Out
+Misc
+60&lt;/p&gt;
+
+&lt;p&gt;An oddly yellow cat handed me this message - what could it mean?&lt;/p&gt;
+
+&lt;p&gt;Author: innoviox&lt;/p&gt;
+
+&lt;p&gt;link: &lt;a href=&#34;https://files.actf.co/397a7663cfc657bea92b8038eb2a27804ac75ba56b74e56572e57f00414fd43f/project.json&#34;&gt;https://files.actf.co/397a7663cfc657bea92b8038eb2a27804ac75ba56b74e56572e57f00414fd43f/project.json&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>AngstromCTF2019: Paper Bin</title>
+      <link>/posts/2019-04-26-angstromctf-paper-bin/</link>
+      <pubDate>Fri, 26 Apr 2019 16:10:48 +1000</pubDate>
+      
+      <guid>/posts/2019-04-26-angstromctf-paper-bin/</guid>
+      <description>&lt;h1 id=&#34;angstromctf2019-paper-bin&#34;&gt;AngstromCTF2019: Paper Bin&lt;/h1&gt;
+
+&lt;h2 id=&#34;the-challenge&#34;&gt;The Challenge&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Paper Bin
+Misc
+40 pts&lt;/p&gt;
+
+&lt;p&gt;defund accidentally deleted all of his math papers! Help recover them from his computer&amp;rsquo;s raw data.&lt;/p&gt;
+
+&lt;p&gt;Author: defund&lt;/p&gt;
+
+&lt;p&gt;link: &lt;a href=&#34;https://files.actf.co/ac4e8f7e16fb244613ffe42741046f98839e477e7a511d583dcc1bb291486029/paper_bin.dat&#34;&gt;https://files.actf.co/ac4e8f7e16fb244613ffe42741046f98839e477e7a511d583dcc1bb291486029/paper_bin.dat&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>AngstromCTF2019: Blank Paper</title>
+      <link>/posts/2019-04-26-angstromctf-blank-paper/</link>
+      <pubDate>Fri, 26 Apr 2019 15:47:57 +1000</pubDate>
+      
+      <guid>/posts/2019-04-26-angstromctf-blank-paper/</guid>
+      <description>AngstromCTF2019: Blank Paper The Challenge  Blank Paper Misc 30pts
+Someone scrubbed defund&amp;rsquo;s paper too hard, and a few of the bytes fell off.
+Author: defund
+link: https://files.actf.co/26e1d969c6a7c21d973a64a67f74ea2695ee5b8743cd8f20d9ccde665bbfd368/blank_paper.pdf
+ The Solution The PDF appears unusable to a large number of PDF viewers.
+But the PDF viewers built into modern browsers are often a little more tolerant. Opening in FireFox reveals the flag:</description>
+    </item>
+    
+    <item>
+      <title>PlaidCTF2019: Docker</title>
+      <link>/posts/2019-04-25-plaidctf-docker/</link>
+      <pubDate>Thu, 25 Apr 2019 10:40:59 +1000</pubDate>
+      
+      <guid>/posts/2019-04-25-plaidctf-docker/</guid>
+      <description>&lt;h1 id=&#34;plaidctf2019-docker&#34;&gt;PlaidCTF2019 - Docker&lt;/h1&gt;
+
+&lt;p&gt;Misc - 10pts&lt;/p&gt;
+
+&lt;h2 id=&#34;the-challenge&#34;&gt;The Challenge&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;Misc (10 pts)
+docker pull whowouldeverguessthis/public
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    
+    <item>
+      <title>PlaidCTF2019: Can You Guess Me</title>
+      <link>/posts/2019-04-25-plaidctf-can-you-guess-me/</link>
+      <pubDate>Thu, 25 Apr 2019 10:38:14 +1000</pubDate>
+      
+      <guid>/posts/2019-04-25-plaidctf-can-you-guess-me/</guid>
+      <description>PlaidCTF2019 - Can You Guess Me Misc - 100pts
+The Challenge The challenge text leads to the python code running the challenge.
+ Misc (100 pts) Here&amp;rsquo;s the source to a guessing game: here
+You can access the server at
+nc canyouguessme.pwni.ng 12349
+ #! /usr/bin/env python3 from sys import exit from secret import secret_value_for_password, flag, exec print(r&amp;#34;&amp;#34;) print(r&amp;#34;&amp;#34;) print(r&amp;#34; ____ __ __ ____ __ __ &amp;#34;) print(r&amp;#34; / ___|__ _ _ _\ \ / /__ _ _ / ___|_ _ ___ ___ ___| \/ | ___ &amp;#34;) print(r&amp;#34;| | / _` | &amp;#39;_ \ V / _ \| | | | | _| | | |/ _ \/ __/ __| |\/| |/ _ \ &amp;#34;) print(r&amp;#34;| |__| (_| | | | | | (_) | |_| | |_| | |_| | __/\__ \__ \ | | | __/ &amp;#34;) print(r&amp;#34; \____\__,_|_| |_|_|\___/ \__,_|\____|\__,_|\___||___/___/_| |_|\___| &amp;#34;) print(r&amp;#34; &amp;#34;) print(r&amp;#34;&amp;#34;) print(r&amp;#34;&amp;#34;) try: val = 0 inp = input(&amp;#34;Input value: &amp;#34;) count_digits = len(set(inp)) if count_digits &amp;lt;= 10: # Make sure it is a number val = eval(inp) else: raise if val == secret_value_for_password: print(flag) else: print(&amp;#34;Nope.</description>
+    </item>
+    
+    <item>
+      <title>C0de_G0lf</title>
+      <link>/posts/2019-04-15-cdeglf/</link>
+      <pubDate>Mon, 15 Apr 2019 11:42:03 +1000</pubDate>
+      
+      <guid>/posts/2019-04-15-cdeglf/</guid>
+      <description>Takeaways from PlaidCTF 2019 Very few developers are intentionally coding exploitable bugs into production software. But working code doesn&amp;rsquo;t always mean code that does what the developer intended. A few minor misunderstandings of a language&amp;rsquo;s std lib and internals can be disastrous. As a former developer I&amp;rsquo;m fascinated by the impact of language choice on security.
+Exploits exist at the nexus of multiple vulnerabilities. Defensively, we use various techniques to reduce the likelihood of vulnerabilities becoming an exploit.</description>
+    </item>
+    
+  </channel>
+</rss>
