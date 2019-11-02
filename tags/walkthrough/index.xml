@@ -1,27 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>walkthrough on TimmsIO</title>
-    <link>https://timms.io/tags/walkthrough/</link>
-    <description>Recent content in walkthrough on TimmsIO</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-au</language>
-    <lastBuildDate>Sun, 02 Dec 2018 10:49:43 +1100</lastBuildDate>
-    
-	<atom:link href="https://timms.io/tags/walkthrough/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>W1R3S Walkthrough</title>
-      <link>https://timms.io/posts/2018-12-02-w1r3s-walkthrough/</link>
-      <pubDate>Sun, 02 Dec 2018 10:49:43 +1100</pubDate>
-      
-      <guid>https://timms.io/posts/2018-12-02-w1r3s-walkthrough/</guid>
-      <description>Walkthrough and Writeup: W1R3S This is a walkthough for the &amp;ldquo;W1R3S: 1.01&amp;rdquo; vulnerable VM, created by SpecterWires. Needless to say, this page will be full of spoilers for the VM.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>walkthrough on TimmsIO</title><link>https://timms.io/tags/walkthrough/</link><description>Recent content in walkthrough on TimmsIO</description><generator>Hugo -- gohugo.io</generator><language>en-au</language><lastBuildDate>Sun, 02 Dec 2018 10:49:43 +1100</lastBuildDate><atom:link href="https://timms.io/tags/walkthrough/index.xml" rel="self" type="application/rss+xml"/><item><title>W1R3S Walkthrough</title><link>https://timms.io/posts/2018-12-02-w1r3s-walkthrough/</link><pubDate>Sun, 02 Dec 2018 10:49:43 +1100</pubDate><guid>https://timms.io/posts/2018-12-02-w1r3s-walkthrough/</guid><description>Walkthrough and Writeup: W1R3S This is a walkthough for the &amp;ldquo;W1R3S: 1.01&amp;rdquo; vulnerable VM, created by SpecterWires. Needless to say, this page will be full of spoilers for the VM.
 The format will be loosely based on the OSCP report format, but modified a little to make it more walkthrough friendly.
 The scenario introducing W1R3S is this:
- You have been hired to do a penetration test on the W1R3S.</description>
-    </item>
-    
-  </channel>
-</rss>
+You have been hired to do a penetration test on the W1R3S.</description></item></channel></rss>

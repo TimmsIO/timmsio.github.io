@@ -1,29 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>vm on TimmsIO</title>
-    <link>/categories/vm/</link>
-    <description>Recent content in vm on TimmsIO</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-au</language>
-    <lastBuildDate>Sun, 02 Dec 2018 10:49:43 +1100</lastBuildDate>
-    
-	<atom:link href="/categories/vm/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>W1R3S Walkthrough</title>
-      <link>/blog/2018-12-02-w1r3s-walkthrough/</link>
-      <pubDate>Sun, 02 Dec 2018 10:49:43 +1100</pubDate>
-      
-      <guid>/blog/2018-12-02-w1r3s-walkthrough/</guid>
-      <description>&lt;h1 id=&#34;walkthrough-and-writeup-w1r3s&#34;&gt;Walkthrough and Writeup: W1R3S&lt;/h1&gt;
-
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>vm on TimmsIO</title><link>/categories/vm/</link><description>Recent content in vm on TimmsIO</description><generator>Hugo -- gohugo.io</generator><language>en-au</language><lastBuildDate>Sun, 02 Dec 2018 10:49:43 +1100</lastBuildDate><atom:link href="/categories/vm/index.xml" rel="self" type="application/rss+xml"/><item><title>W1R3S Walkthrough</title><link>/blog/2018-12-02-w1r3s-walkthrough/</link><pubDate>Sun, 02 Dec 2018 10:49:43 +1100</pubDate><guid>/blog/2018-12-02-w1r3s-walkthrough/</guid><description>&lt;h1 id=&#34;walkthrough-and-writeup-w1r3s&#34;&gt;Walkthrough and Writeup: W1R3S&lt;/h1&gt;
 &lt;p&gt;This is a walkthough for the &lt;a href=&#34;https://www.vulnhub.com/entry/w1r3s-101,220/&#34;&gt;&amp;ldquo;W1R3S: 1.01&amp;rdquo; vulnerable VM&lt;/a&gt;, created by &lt;a href=&#34;https://www.vulnhub.com/author/specterwires,572/&#34;&gt;SpecterWires&lt;/a&gt;.
 Needless to say, this page will be full of spoilers for the VM.&lt;/p&gt;
-
-&lt;p&gt;The format will be loosely based on the OSCP report format, but modified a little to make it more walkthrough friendly.&lt;/p&gt;</description>
-    </item>
-    
-  </channel>
-</rss>
+&lt;p&gt;The format will be loosely based on the OSCP report format, but modified a little to make it more walkthrough friendly.&lt;/p&gt;</description></item></channel></rss>

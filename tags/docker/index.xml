@@ -1,32 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>docker on TimmsIO</title>
-    <link>https://timms.io/tags/docker/</link>
-    <description>Recent content in docker on TimmsIO</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-au</language>
-    <lastBuildDate>Thu, 25 Apr 2019 10:40:59 +1000</lastBuildDate>
-    
-	<atom:link href="https://timms.io/tags/docker/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>PlaidCTF2019: Docker</title>
-      <link>https://timms.io/posts/2019-04-25-plaidctf-docker/</link>
-      <pubDate>Thu, 25 Apr 2019 10:40:59 +1000</pubDate>
-      
-      <guid>https://timms.io/posts/2019-04-25-plaidctf-docker/</guid>
-      <description>&lt;h1 id=&#34;plaidctf2019-docker&#34;&gt;PlaidCTF2019 - Docker&lt;/h1&gt;
-
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>docker on TimmsIO</title><link>https://timms.io/tags/docker/</link><description>Recent content in docker on TimmsIO</description><generator>Hugo -- gohugo.io</generator><language>en-au</language><lastBuildDate>Thu, 25 Apr 2019 10:40:59 +1000</lastBuildDate><atom:link href="https://timms.io/tags/docker/index.xml" rel="self" type="application/rss+xml"/><item><title>PlaidCTF2019: Docker</title><link>https://timms.io/posts/2019-04-25-plaidctf-docker/</link><pubDate>Thu, 25 Apr 2019 10:40:59 +1000</pubDate><guid>https://timms.io/posts/2019-04-25-plaidctf-docker/</guid><description>&lt;h1 id=&#34;plaidctf2019-docker&#34;&gt;PlaidCTF2019 - Docker&lt;/h1&gt;
 &lt;p&gt;Misc - 10pts&lt;/p&gt;
-
 &lt;h2 id=&#34;the-challenge&#34;&gt;The Challenge&lt;/h2&gt;
-
 &lt;pre&gt;&lt;code&gt;Misc (10 pts)
 docker pull whowouldeverguessthis/public
-&lt;/code&gt;&lt;/pre&gt;</description>
-    </item>
-    
-  </channel>
-</rss>
+&lt;/code&gt;&lt;/pre&gt;</description></item></channel></rss>

@@ -1,25 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>secure code on TimmsIO</title>
-    <link>https://timms.io/tags/secure-code/</link>
-    <description>Recent content in secure code on TimmsIO</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-au</language>
-    <lastBuildDate>Mon, 15 Apr 2019 11:42:03 +1000</lastBuildDate>
-    
-	<atom:link href="https://timms.io/tags/secure-code/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>C0de_G0lf</title>
-      <link>https://timms.io/posts/2019-04-15-cdeglf/</link>
-      <pubDate>Mon, 15 Apr 2019 11:42:03 +1000</pubDate>
-      
-      <guid>https://timms.io/posts/2019-04-15-cdeglf/</guid>
-      <description>Takeaways from PlaidCTF 2019 Very few developers are intentionally coding exploitable bugs into production software. But working code doesn&amp;rsquo;t always mean code that does what the developer intended. A few minor misunderstandings of a language&amp;rsquo;s std lib and internals can be disastrous. As a former developer I&amp;rsquo;m fascinated by the impact of language choice on security.
-Exploits exist at the nexus of multiple vulnerabilities. Defensively, we use various techniques to reduce the likelihood of vulnerabilities becoming an exploit.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>secure code on TimmsIO</title><link>https://timms.io/tags/secure-code/</link><description>Recent content in secure code on TimmsIO</description><generator>Hugo -- gohugo.io</generator><language>en-au</language><lastBuildDate>Mon, 15 Apr 2019 11:42:03 +1000</lastBuildDate><atom:link href="https://timms.io/tags/secure-code/index.xml" rel="self" type="application/rss+xml"/><item><title>C0de_G0lf</title><link>https://timms.io/posts/2019-04-15-cdeglf/</link><pubDate>Mon, 15 Apr 2019 11:42:03 +1000</pubDate><guid>https://timms.io/posts/2019-04-15-cdeglf/</guid><description>Takeaways from PlaidCTF 2019 Very few developers are intentionally coding exploitable bugs into production software. But working code doesn&amp;rsquo;t always mean code that does what the developer intended. A few minor misunderstandings of a language&amp;rsquo;s std lib and internals can be disastrous. As a former developer I&amp;rsquo;m fascinated by the impact of language choice on security.
+Exploits exist at the nexus of multiple vulnerabilities. Defensively, we use various techniques to reduce the likelihood of vulnerabilities becoming an exploit.</description></item></channel></rss>
